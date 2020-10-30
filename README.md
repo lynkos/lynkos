@@ -1,5 +1,5 @@
 ## 👋🏽 Greetings
-I'm Kiran (she/her): A senior Computer Science, Mathematics, and Statistics student with a passion for creating and an interest in STEM research. This semester, I'm doing front-end development for an intelligent building information modeling (BIM) assistant project.
+I'm Kiran (she/her): A quick-learning senior Computer Science, Mathematics, and Statistics student with a passion for creating and an interest in STEM research. This semester, I'm doing front-end development for an intelligent building information modeling (BIM) assistant project.
 
 I enjoy traveling, photography, listening to music, reading, journaling, doodling, daydreaming, and watching anime during my down time. I also like reading research papers and watching scientific YouTube videos (e.g. Two Minute Papers). Fun fact: If I had to name a research paper that's currently piqued my interest, it'd have to be <a href="https://arxiv.org/pdf/cs/0304008.pdf" target="_blank">A Physics-Free Introduction to the Quantum Computation Model</a> by Stephen Fenner.
 
@@ -62,5 +62,5 @@ I enjoy traveling, photography, listening to music, reading, journaling, doodlin
  </tr>
 </table>
 
-## 📈 GitHub Stats
-[![Kiran's GitHub Stats](https://github-readme-stats.vercel.app/api?username=lynkos&count_private=true&show_icons=true&theme=material-palenight)](https://github.com/lynkos/github-readme-stats)
+<!-- ## 📈 GitHub Stats
+[![Kiran's GitHub Stats](https://github-readme-stats.vercel.app/api?username=lynkos&count_private=true&show_icons=true&theme=material-palenight)](https://github.com/lynkos/github-readme-stats) -->
