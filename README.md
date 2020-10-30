@@ -1,11 +1,11 @@
-## 👋🏽 Greetings
+## 👋🏽&nbsp; Greetings
 I'm Kiran (she/her): A quick-learning senior Computer Science, Mathematics, and Statistics student with a passion for creating and an interest in STEM research. This semester, I'm doing front-end development for an intelligent building information modeling (BIM) assistant project.
 
 I enjoy traveling, photography (Nikon D5100 DSLR), listening to music, reading, journaling/writing, doodling, daydreaming, and watching anime during my down time. I also like reading research papers and watching scientific YouTube videos (e.g. <a href="https://www.youtube.com/user/keeroyz" target="_blank">Two Minute Papers</a>). Fun fact: If I had to name a research paper that's currently piqued my interest, it'd have to be <a href="https://arxiv.org/pdf/cs/0304008.pdf" target="_blank">A Physics-Free Introduction to the Quantum Computation Model</a> by Stephen Fenner.
 
 <a href="https://instagr.am/overanalyse" target="_blank"><img src="https://simpleicons.org/icons/instagram.svg" width="20px" height="20px" alt="Instagram" /></a> &nbsp; <a href="https://twitter.com/Surinaamer" target="_blank"><img src="https://simpleicons.org/icons/twitter.svg" width="20px" height="20px" alt="Twitter" /></a> &nbsp; <a href="https://open.spotify.com/user/kiwi2mii" target="_blank"><img src="https://simpleicons.org/icons/spotify.svg" width="20px" height="20px" alt="Spotify" /></a> &nbsp; <a href="https://www.linkedin.com/in/kiran-brahmatewari" target="_blank"><img src="https://simpleicons.org/icons/linkedin.svg" width="20px" height="20px" alt="LinkedIn" /></a>
 
-## 💻 Skills
+## 💻&nbsp; Skills
 <!-- Code -->
 ![](https://img.shields.io/static/v1?label=Code&message=Java&logo=java&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=C&logo=c&color=purple&logoColor=white)
@@ -39,7 +39,7 @@ I enjoy traveling, photography (Nikon D5100 DSLR), listening to music, reading, 
 ![](https://img.shields.io/static/v1?label=OS&message=MacOS&logo=apple&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=purple&logoColor=white)
 
-## 🔬 Research Interests
+## 🔬&nbsp; Research Interests
 <table border="0">
  <tr>
    <td>Quantum Computing</td>
@@ -63,5 +63,5 @@ I enjoy traveling, photography (Nikon D5100 DSLR), listening to music, reading, 
  </tr>
 </table>
 
-<!-- ## 📈 GitHub Stats
+<!-- ## 📈&nbsp; GitHub Stats
 [![Kiran's GitHub Stats](https://github-readme-stats.vercel.app/api?username=lynkos&count_private=true&show_icons=true&theme=material-palenight)](https://github.com/lynkos/github-readme-stats) -->
