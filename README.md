@@ -18,13 +18,13 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=Code&message=Bootstrap&logo=bootstrap&color=purple&logoColor=white)
 
 <!-- Tools -->
-![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Word&logo=microsoft+word&color=3f7fc0&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Excel&logo=microsoft+excel&color=3f7fc0&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=3f7fc0&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=3f7fc0&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=npm&logo=npm&color=3f7fc0&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=3f7fc0&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=3f7fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Word&logo=microsoft+word&color=red&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Excel&logo=microsoft+excel&color=red&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=red&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=red&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=npm&logo=npm&color=red&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=red&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=red&logoColor=white)
 
 <!-- IDE -->
 ![](https://img.shields.io/static/v1?label=IDE&message=Eclipse&logo=eclipse&color=39ae39&logoColor=white)
@@ -36,8 +36,8 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=Shell&message=iTerm+(Zsh)&logo=powershell&color=black&logoColor=white)
 
 <!-- OS -->
-![](https://img.shields.io/static/v1?label=OS&message=MacOS&logo=apple&color=red&logoColor=white)
-![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=red&logoColor=white)
+![](https://img.shields.io/static/v1?label=OS&message=MacOS&logo=apple&color=3f7fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=3f7fc0&logoColor=white)
 
 <!-- Languages -->
 ![](https://img.shields.io/static/v1?label=Languages&message=English&color=d07a22)
