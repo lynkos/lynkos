@@ -9,7 +9,6 @@ I enjoy traveling, photography (Nikon D5100 DSLR), listening to music, reading, 
 <!-- Code -->
 ![](https://img.shields.io/static/v1?label=Code&message=Java&logo=java&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=C&logo=c&color=purple&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=C%2b%2b&logo=c%2b%2b&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=HTML&logo=html5&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=CSS&logo=css3&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=R&logo=r&color=purple&logoColor=white)
