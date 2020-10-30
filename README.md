@@ -40,8 +40,8 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=3f7fc0&logoColor=white)
 
 <!-- Languages -->
-![](https://img.shields.io/static/v1?label=Languages&message=English&color=red)
-![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=red)
+![](https://img.shields.io/static/v1?label=Languages&message=English&color=ae3939)
+![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=ae3939)
 
 ## 🔬&nbsp; Research Interests
 <table>
