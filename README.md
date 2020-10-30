@@ -7,24 +7,24 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 
 ## 💻&nbsp; Skills
 <!-- Code -->
-![](https://img.shields.io/static/v1?label=Code&message=Java&logo=java&color=purple&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=C&logo=c&color=purple&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=HTML&logo=html5&color=purple&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=CSS&logo=css3&color=purple&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=R&logo=r&color=purple&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Python&logo=python&color=purple&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=JavaScript&logo=javascript&color=purple&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Vue&logo=vue.js&color=purple&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Bootstrap&logo=bootstrap&color=purple&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Java&logo=java&color=a03fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=C&logo=c&color=a03fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=HTML&logo=html5&color=a03fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=CSS&logo=css3&color=a03fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=R&logo=r&color=a03fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Python&logo=python&color=a03fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=JavaScript&logo=javascript&color=a03fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Vue&logo=vue.js&color=a03fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Bootstrap&logo=bootstrap&color=a03fc0&logoColor=white)
 
 <!-- Tools -->
-![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Word&logo=microsoft+word&color=red&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Excel&logo=microsoft+excel&color=red&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=red&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=red&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=npm&logo=npm&color=red&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=red&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=red&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Word&logo=microsoft+word&color=c0713f&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Excel&logo=microsoft+excel&color=c0713f&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=c0713f&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=c0713f&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=npm&logo=npm&color=c0713f&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=c0713f&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=c0713f&logoColor=white)
 
 <!-- IDE -->
 ![](https://img.shields.io/static/v1?label=IDE&message=Eclipse&logo=eclipse&color=39ae39&logoColor=white)
@@ -40,11 +40,11 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=3f7fc0&logoColor=white)
 
 <!-- Languages -->
-![](https://img.shields.io/static/v1?label=Languages&message=English&color=d07a22)
-![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=d07a22)
+![](https://img.shields.io/static/v1?label=Languages&message=English&color=red)
+![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=red)
 
 ## 🔬&nbsp; Research Interests
-<table border="0">
+<table>
  <tr>
    <td>Quantum Computing</td>
     <td>Artificial Intelligence</td>
