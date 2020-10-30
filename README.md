@@ -22,6 +22,7 @@ I enjoy traveling, photography, listening to music, reading, journaling, doodlin
 ![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Word&logo=microsoft+word&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Excel&logo=microsoft+excel&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=purple&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=npm&logo=npm&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=purple&logoColor=white)
