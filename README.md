@@ -18,13 +18,13 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=Code&message=Bootstrap&logo=bootstrap&color=a03fc0&logoColor=white)
 
 <!-- Tools -->
-![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Word&logo=microsoft+word&color=c0713f&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Excel&logo=microsoft+excel&color=c0713f&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=c0713f&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=c0713f&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=npm&logo=npm&color=c0713f&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=c0713f&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=c0713f&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Word&logo=microsoft+word&color=ae3939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Excel&logo=microsoft+excel&color=ae3939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=ae3939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=ae3939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=npm&logo=npm&color=ae3939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=ae3939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=ae3939&logoColor=white)
 
 <!-- IDE -->
 ![](https://img.shields.io/static/v1?label=IDE&message=Eclipse&logo=eclipse&color=39ae39&logoColor=white)
@@ -40,8 +40,8 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=3f7fc0&logoColor=white)
 
 <!-- Languages -->
-![](https://img.shields.io/static/v1?label=Languages&message=English&color=ae3939)
-![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=ae3939)
+![](https://img.shields.io/static/v1?label=Languages&message=English&color=c0713f)
+![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=c0713f)
 
 ## 🔬&nbsp; Research Interests
 <table>
