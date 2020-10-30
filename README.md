@@ -39,6 +39,10 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=OS&message=MacOS&logo=apple&color=purple&logoColor=white)
 ![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=purple&logoColor=white)
 
+<!-- Languages -->
+![](https://img.shields.io/static/v1?label=Languages&message=English&color=purple)
+![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=purple)
+
 ## 🔬&nbsp; Research Interests
 <table border="0">
  <tr>
