@@ -3,7 +3,7 @@ I'm Kiran (she/her): A quick-learning undergrad senior with a passion for creati
 
 I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGRAPHY%20PORTFOLIO.pdf" target="_blank">photography</a> (Nikon D5100 DSLR), listening to music, reading, journaling/writing, doodling, daydreaming, creating, fashion/styling, skincare, <a href="https://myanimelist.net/profile/lynkos" target="_blank">watching anime</a>, cooking, vibing with friends, and memes during my downtime. I also like reading research papers and watching scientific YouTube channels (e.g. <a href="https://www.youtube.com/user/keeroyz" target="_blank">Two Minute Papers</a>, <a href="https://www.youtube.com/c/3blue1brown" target="_blank">3Blue1Brown</a>, etc). If I had to name a research paper that's currently piqued my interest, it'd have to be <a href="https://arxiv.org/pdf/cs/0304008.pdf" target="_blank">A Physics-Free Introduction to the Quantum Computation Model</a> by Stephen Fenner.
 
-<a href="https://instagr.am/overanalyse" target="_blank"><img src="https://simpleicons.org/icons/instagram.svg" width="20px" height="20px" alt="Instagram" /></a> &nbsp; <a href="https://twitter.com/Surinaamer" target="_blank"><img src="https://simpleicons.org/icons/twitter.svg" width="20px" height="20px" alt="Twitter" /></a> &nbsp; <a href="https://open.spotify.com/user/kiwi2mii" target="_blank"><img src="https://simpleicons.org/icons/spotify.svg" width="20px" height="20px" alt="Spotify" /></a> ![counter](https://en7p3basqkwwlfp.m.pipedream.net)
+<a href="https://instagr.am/overanalyse" target="_blank"><img src="https://simpleicons.org/icons/instagram.svg" width="25px" height="25px" alt="Instagram" /></a> &nbsp; <a href="https://twitter.com/Surinaamer" target="_blank"><img src="https://simpleicons.org/icons/twitter.svg" width="25px" height="25px" alt="Twitter" /></a> &nbsp; <a href="https://open.spotify.com/user/kiwi2mii" target="_blank"><img src="https://simpleicons.org/icons/spotify.svg" width="25px" height="25px" alt="Spotify" /></a> ![counter](https://en7p3basqkwwlfp.m.pipedream.net)
 
 ## 💻&nbsp; Skills
 <!-- Code -->
@@ -18,8 +18,7 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=Code&message=Bootstrap&logo=bootstrap&color=39ae39&labelColor=393939&logoColor=white)
 
 <!-- Tools -->
-![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Word&logo=microsoft+word&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Excel&logo=microsoft+excel&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Office&logo=microsoft+office&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=npm&logo=npm&color=ae3939&labelColor=393939&logoColor=white)
