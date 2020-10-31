@@ -9,41 +9,41 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 
 ## 💻&nbsp; Skills
 <!-- Code -->
-![](https://img.shields.io/static/v1?label=Code&message=Java&logo=java&color=39ae39&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=C&logo=c&color=39ae39&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=HTML&logo=html5&color=39ae39&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=CSS&logo=css3&color=39ae39&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=R&logo=r&color=39ae39&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Python&logo=python&color=39ae39&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=JavaScript&logo=javascript&color=39ae39&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Vue&logo=vue.js&color=39ae39&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Bootstrap&logo=bootstrap&color=39ae39&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Java&logo=java&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=C&logo=c&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=HTML&logo=html5&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=CSS&logo=css3&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=R&logo=r&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Python&logo=python&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=JavaScript&logo=javascript&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Vue&logo=vue.js&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Bootstrap&logo=bootstrap&color=39ae39&labelColor=393939&logoColor=white)
 
 <!-- Tools -->
-![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Word&logo=microsoft+word&color=ae3939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Excel&logo=microsoft+excel&color=ae3939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=ae3939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=ae3939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=npm&logo=npm&color=ae3939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=ae3939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=ae3939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Word&logo=microsoft+word&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Excel&logo=microsoft+excel&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=npm&logo=npm&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=ae3939&labelColor=393939&logoColor=white)
 
 <!-- IDE -->
-![](https://img.shields.io/static/v1?label=IDE&message=Eclipse&logo=eclipse&color=a03fc0&logoColor=white)
-![](https://img.shields.io/static/v1?label=IDE&message=WebStorm&logo=webstorm&color=a03fc0&logoColor=white)
-![](https://img.shields.io/static/v1?label=IDE&message=RStudio&logo=rstudio&color=a03fc0&logoColor=white)
-![](https://img.shields.io/static/v1?label=IDE&message=Sublime+Text&logo=sublime+text&color=a03fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=IDE&message=Eclipse&logo=eclipse&color=a03fc0&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=IDE&message=WebStorm&logo=webstorm&color=a03fc0&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=IDE&message=RStudio&logo=rstudio&color=a03fc0&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=IDE&message=Sublime+Text&logo=sublime+text&color=a03fc0&labelColor=393939&logoColor=white)
 
 <!-- Shell -->
-![](https://img.shields.io/static/v1?label=Shell&message=iTerm+(Zsh)&logo=powershell&color=black&logoColor=white)
+![](https://img.shields.io/static/v1?label=Shell&message=iTerm+(Zsh)&logo=powershell&color=white&labelColor=393939&logoColor=white)
 
 <!-- OS -->
-![](https://img.shields.io/static/v1?label=OS&message=macOS&logo=apple&color=3f7fc0&logoColor=white)
-![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=3f7fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=OS&message=macOS&logo=apple&color=3f7fc0&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=3f7fc0&labelColor=393939&logoColor=white)
 
 <!-- Languages -->
-![](https://img.shields.io/static/v1?label=Languages&message=English&color=c0713f)
-![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=c0713f)
+![](https://img.shields.io/static/v1?label=Languages&message=English&color=c0713f&labelColor=393939)
+![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=c0713f&labelColor=393939)
 
 ## 🔬&nbsp; Research Interests
 <table>
