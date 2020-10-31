@@ -36,7 +36,7 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=Shell&message=iTerm+(Zsh)&logo=powershell&color=black&logoColor=white)
 
 <!-- OS -->
-![](https://img.shields.io/static/v1?label=OS&message=MacOS&logo=apple&color=3f7fc0&logoColor=white)
+![](https://img.shields.io/static/v1?label=OS&message=macOS&logo=apple&color=3f7fc0&logoColor=white)
 ![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=3f7fc0&logoColor=white)
 
 <!-- Languages -->
