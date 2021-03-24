@@ -64,6 +64,10 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
     <td>Linguistics</td>
     <td>Music</td>
  </tr>
+ <tr>
+    <td>Graph Theory</td>
+    <td>Cryptography</td>
+ </tr>
 </table>
 
 <!-- ## 📈&nbsp; GitHub Stats
