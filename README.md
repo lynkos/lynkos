@@ -45,7 +45,7 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=IDE&message=Vim&logo=vim&color=a03fc0&labelColor=393939&logoColor=white)
 
 <!-- Shell -->
-![](https://img.shields.io/static/v1?label=Shell&message=iTerm2+(Zsh)&logo=powershell&color=white&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Shell&message=iTerm+(Zsh)&logo=powershell&color=white&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Shell&message=iTerm2+(Bash)&logo=gnu+bash&color=white&labelColor=393939&logoColor=white)
 
 <!-- OS -->
