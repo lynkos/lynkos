@@ -33,6 +33,7 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=Tools&message=OCI&logo=oracle&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=MongoDB&logo=mongodb&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Atlassian&logo=atlassian&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=ae3939&labelColor=393939&logoColor=white)
 
 <!-- IDE -->
