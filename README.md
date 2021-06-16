@@ -45,7 +45,7 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=IDE&message=Vim&logo=vim&color=a03fc0&labelColor=393939&logoColor=white)
 
 <!-- Shell -->
-![](https://img.shields.io/static/v1?label=Shell&message=iTerm+(Zsh)&logo=powershell&color=white&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Shell&message=iTerm2+(Zsh)&logo=powershell&color=white&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Shell&message=iTerm2+(Bash)&logo=gnu+bash&color=white&labelColor=393939&logoColor=white)
 
 <!-- OS -->
@@ -60,27 +60,31 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 <table>
  <tr>
    <td>Quantum Computing</td>
-    <td>Artificial Intelligence</td>
+   <td>Artificial Intelligence</td>
  </tr>
  <tr>
     <td>Machine Learning</td>
     <td>Data Science</td>
  </tr>
-  <tr>
+ <tr>
     <td>Computer Science</td>
     <td>Mathematics</td>
  </tr>
-  <tr>
+ <tr>
     <td>Cognitive Science</td>
     <td>Statistics</td>
  </tr>
-  <tr>
-    <td>Linguistics</td>
-    <td>Music</td>
- </tr>
  <tr>
     <td>Graph Theory</td>
+    <td>[Computer] Networks</td>
+ </tr>
+ <tr>
     <td>Cryptography</td>
+    <td>Cryptology</td>
+ </tr>
+ <tr>
+    <td>Linguistics</td>
+    <td>Music</td>
  </tr>
 </table>
 
