@@ -60,11 +60,11 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 <table>
  <tr>
    <td>Quantum Computing</td>
-   <td>Artificial Intelligence</td>
+   <td>Quantum Networking</td>
  </tr>
  <tr>
     <td>Machine Learning</td>
-    <td>Data Science</td>
+    <td>Artificial Intelligence</td>
  </tr>
  <tr>
     <td>Computer Science</td>
@@ -76,11 +76,15 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
  </tr>
  <tr>
     <td>Graph Theory</td>
-    <td>[Computer] Networks</td>
+    <td>Computer Networking</td>
  </tr>
  <tr>
     <td>Cryptography</td>
     <td>Cryptology</td>
+ </tr>
+ <tr>
+    <td>Cloud Computing</td>
+    <td>Data Science</td>
  </tr>
  <tr>
     <td>Linguistics</td>
