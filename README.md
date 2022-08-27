@@ -15,6 +15,7 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=Code&message=C&logo=c&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=R&logo=r&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=JavaScript&logo=javascript&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=MySQL&logo=mysql&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=JSON&logo=json&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=Vue&logo=vue.js&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=Bootstrap&logo=bootstrap&color=39ae39&labelColor=393939&logoColor=white)
@@ -35,11 +36,14 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=Tools&message=Oracle+Database&logo=oracle&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Homebrew&logo=homebrew&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Vim&logo=vim&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Maven&logo=apache+maven&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Spring+Framework&logo=spring&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=ae3939&labelColor=393939&logoColor=white)
 
 <!-- IDE -->
-![](https://img.shields.io/static/v1?label=IDE&message=Eclipse&logo=eclipse&color=a03fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=IDE&message=Visual+Studio+Code&logo=visual+studio+code&color=a03fc0&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=IDE&message=Intellij+IDEA&logo=intellij+idea&color=a03fc0&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=IDE&message=Eclipse&logo=eclipse&color=a03fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=IDE&message=WebStorm&logo=webstorm&color=a03fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=IDE&message=RStudio&logo=rstudio&color=a03fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=IDE&message=Sublime+Text&logo=sublime+text&color=a03fc0&labelColor=393939&logoColor=white)
