@@ -8,7 +8,7 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 
 ## 💻&nbsp; Skills
 <!-- Code -->
-![](https://img.shields.io/static/v1?label=Code&message=Java&logo=java&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Java&logo=oracle&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=Python&logo=python&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=HTML&logo=html5&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=CSS&logo=css3&color=39ae39&labelColor=393939&logoColor=white)
@@ -33,7 +33,6 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=Tools&message=MongoDB&logo=mongodb&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Docker&logo=docker&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Oracle+Cloud&logo=oracle&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Homebrew&logo=homebrew&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Vim&logo=vim&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Maven&logo=apache+maven&color=ae3939&labelColor=393939&logoColor=white)
@@ -41,6 +40,7 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 ![](https://img.shields.io/static/v1?label=Tools&message=LaTeX&logo=latex&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Prometheus&logo=prometheus&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Cloud+Computing&logo=icloud&color=ae3939&labelColor=393939&logoColor=white)
 
 <!-- IDE -->
 ![](https://img.shields.io/static/v1?label=IDE&message=Visual+Studio+Code&logo=visual+studio+code&color=a03fc0&labelColor=393939&logoColor=white)
