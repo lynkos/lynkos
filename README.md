@@ -24,6 +24,8 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Code&message=React&logo=react&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=Bootstrap&logo=bootstrap&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=Terraform&logo=terraform&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=LaTeX&logo=latex&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Markdown&logo=markdown&color=39ae39&labelColor=393939&logoColor=white)
 
 <!-- Tools -->
 ![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Office&logo=microsoft+office&color=ae3939&labelColor=393939&logoColor=white)
@@ -40,7 +42,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Tools&message=Vim&logo=vim&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Maven&logo=apache+maven&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Spring+Framework&logo=spring&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=LaTeX&logo=latex&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Jupyter&logo=jupyter&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Prometheus&logo=prometheus&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Cloud+Computing&logo=icloud&color=ae3939&labelColor=393939&logoColor=white)
