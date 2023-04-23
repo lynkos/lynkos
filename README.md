@@ -101,6 +101,10 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
     <td>Linguistics</td>
     <td>Music</td>
  </tr>
+  <tr>
+    <td>Etymology</td>
+    <td>Anthropology</td>
+ </tr>
 </table>
 
 <!-- ## 📈&nbsp; GitHub Stats
