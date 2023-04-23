@@ -5,8 +5,7 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 
 I also enjoy reading research papers and watching YouTube channels (e.g. <a href="https://www.youtube.com/user/keeroyz" target="_blank">Two Minute Papers</a>, <a href="https://www.youtube.com/c/3blue1brown" target="_blank">3Blue1Brown</a>, etc). If I had to name a research paper that's currently piqued my interest, it'd have to be <a href="https://arxiv.org/abs/cs/0304008" target="_blank">A Physics-Free Introduction to the Quantum Computation Model</a> by Stephen Fenner.
 
-<a href="https://instagr.am/overanalyse" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" alt="Instagram" /></a> &nbsp; <a href="https://www.linkedin.com/in/kiran-brahmatewari" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" alt="LinkedIn" /></a>
-&nbsp; <a href="https://twitter.com/0xLynkos" target="_blank"><img src="https://static.cdnlogo.com/logos/t/48/twitter.png" width="32px" height="28px" alt="Twitter" /></a>&nbsp; <a href="https://open.spotify.com/user/kiwi2mii" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" width="28px" height="28px" alt="Spotify" /></a>&nbsp; ![Visitor Count](https://profile-counter.glitch.me/lynkos/count.svg)
+<a href="https://open.spotify.com/user/kiwi2mii" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" width="28px" height="28px" alt="Spotify" /></a>&nbsp; ![Visitor Count](https://profile-counter.glitch.me/lynkos/count.svg)
 
 ## 💻&nbsp; Skills
 <!-- Code -->
