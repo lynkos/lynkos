@@ -26,6 +26,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Code&message=Terraform&logo=terraform&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=LaTeX&logo=latex&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=Markdown&logo=markdown&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Qiskit&logo=qiskit&color=39ae39&labelColor=393939&logoColor=white)
 
 <!-- Tools -->
 ![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Office&logo=microsoft+office&color=ae3939&labelColor=393939&logoColor=white)
