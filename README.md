@@ -109,6 +109,6 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 </table>
 
 ## 📊&nbsp; Data
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=5&layout=donut&theme=ocean-dark)](https://github.com/lynkos/github-readme-stats)
-![Stats](https://github-readme-stats.vercel.app/api?username=lynkos&rank_icon=github&theme=ocean-dark&custom_title=GitHub+Stats&include_all_commits=true&show_icons=true&count_private=true)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=5&layout=donut&theme=ocean_dark)](https://github.com/lynkos/github-readme-stats)
+![Stats](https://github-readme-stats.vercel.app/api?username=lynkos&rank_icon=github&theme=ocean_dark&custom_title=GitHub+Stats&include_all_commits=true&show_icons=true&count_private=true)
 ![Visitor Count](https://profile-counter.glitch.me/lynkos/count.svg)
