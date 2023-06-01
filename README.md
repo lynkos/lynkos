@@ -108,5 +108,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
  </tr>
 </table>
 
-<!-- ## 📈&nbsp; GitHub Stats
+## 📊&nbsp; GitHub Stats
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos)](https://github.com/lynkos/github-readme-stats)
+<!--
 [![Kiran's GitHub Stats](https://github-readme-stats.vercel.app/api?username=lynkos&count_private=true&show_icons=true&theme=material-palenight)](https://github.com/lynkos/github-readme-stats) -->
