@@ -6,7 +6,7 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 I also enjoy reading research papers and watching YouTube channels (e.g. <a href="https://www.youtube.com/user/keeroyz" target="_blank">Two Minute Papers</a>, <a href="https://www.youtube.com/c/3blue1brown" target="_blank">3Blue1Brown</a>, etc). If I had to name a research paper that's currently piqued my interest, it'd have to be <a href="https://arxiv.org/abs/cs/0304008" target="_blank">A Physics-Free Introduction to the Quantum Computation Model</a> by Stephen Fenner.
 
 <a href="https://twitter.com/0xLynkos" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" width="31px" height="27px" alt="Twitter" /></a>&nbsp; <a href="https://instagr.am/overanalyse" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" alt="Instagram" /></a> &nbsp; <a href="https://www.linkedin.com/in/kiran-brahmatewari" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" alt="LinkedIn" /></a>
-&nbsp; <a href="https://open.spotify.com/user/kiwi2mii" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" width="28px" height="28px" alt="Spotify" /></a>&nbsp; ![Visitor Count](https://profile-counter.glitch.me/lynkos/count.svg)
+&nbsp; <a href="https://open.spotify.com/user/kiwi2mii" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" width="28px" height="28px" alt="Spotify" /></a>
 
 ## 💻&nbsp; Skills
 <!-- Code -->
@@ -108,6 +108,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
  </tr>
 </table>
 
-## 📊&nbsp; GitHub Stats
+## 📊&nbsp; Data
+![Stats](https://github-readme-stats.vercel.app/api?username=lynkos&rank_icon=github&theme=solarized-dark&include_all_commits=true&show_icons=true&count_private=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=5&layout=donut&theme=solarized-dark)](https://github.com/lynkos/github-readme-stats)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lynkos&rank_icon=github&hide_title=true&theme=solarized-dark&include_all_commits=true&show_icons=true&count_private=true)
+![Visitor Count](https://profile-counter.glitch.me/lynkos/count.svg)
