@@ -106,6 +106,10 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
     <td>Etymology</td>
     <td>Anthropology</td>
  </tr>
+ <tr>
+    <td>Neuroscience</td>
+    <td>Psychology</td>
+ </tr>
 </table>
 
 ## 📊&nbsp; Data
