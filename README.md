@@ -1,5 +1,5 @@
 ## 👋🏽&nbsp; Greetings
-I'm Kiran (she/her): A quick-learning undergrad with a passion for creating and an interest in STEM research. My areas of focus (i.e. major and minors) are Computer Science, Mathematics, and Statistics. I'm currently a Research Analyst and Assistant at <a href="https://acyd.fiu.edu" target="_blank">Analytics for Cyber Defense (ACyD) Lab</a> and am a 3x Software Engineer Intern at Oracle Cloud during Summers 2021 – 2023.
+I'm Kiran (she/her): A quick-learning undergrad with a passion for creating and an interest in STEM research. My areas of focus (i.e. major and minors) are Computer Science, Mathematics, and Statistics. I'm a 3x Software Engineer Intern at Oracle Cloud during Summers 2021 – 2023. I'm currently a Research Analyst and Assistant at <a href="https://acyd.fiu.edu" target="_blank">Analytics for Cyber Defense (ACyD) Lab</a>. My research involves post-quantum cybersecurity and its use cases for Internet of Things (IoT) in order to make IoT resilient to quantum hacking.
 
 I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGRAPHY%20PORTFOLIO.pdf" target="_blank">photography</a> (Nikon D5100 DSLR), listening to music, reading, journaling/writing, doodling, daydreaming, creating, fashion, design, skincare, watching <a href="https://myanimelist.net/profile/lynkos" target="_blank">anime</a>, cooking, vibing with friends, programming/cybersecurity competitions (e.g. capture the flags (CTFs), hackathons, etc), and memes during my downtime. <a href="https://lynkos420.blogspot.com" target="_blank">This blog</a> contains some of my solutions to certain CTF puzzles/problems; it's a relic from the past as I created and contributed to it during my last 2 years of high school.
 
@@ -70,6 +70,10 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 
 ## 🔬&nbsp; Research Interests
 <table>
+  <tr>
+   <td>Quantum Cybersecurity</td>
+   <td>Internet of Things (IoT)</td>
+ </tr>
  <tr>
    <td>Quantum Computing</td>
    <td>Quantum Networking</td>
