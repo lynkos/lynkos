@@ -104,16 +104,52 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
     <td>Data Science</td>
  </tr>
  <tr>
-    <td>Linguistics</td>
-    <td>Music</td>
- </tr>
-  <tr>
-    <td>Etymology</td>
-    <td>Anthropology</td>
- </tr>
- <tr>
     <td>Neuroscience</td>
     <td>Psychology</td>
+ </tr>
+ <tr>
+    <td>Computer Vision</td>
+    <td>Natural Language Processing</td>
+ </tr>
+ <tr>
+    <td>Distributed Computing</td>
+    <td>Ubiquitous Computing</td>
+ </tr>
+ <tr>
+    <td>Cybersecurity</td>
+    <td>Game Theory</td>
+ </tr>
+ <tr>
+    <td>Discrete Mathematics</td>
+    <td>Mathematical Logic</td>
+ </tr>
+ <tr>
+    <td>Algorithms</td>
+    <td>Data Structures</td>
+ </tr>
+ <tr>
+    <td>Data Mining</td>
+    <td>Robotics</td>
+ </tr>
+ <tr>
+    <td>Computer Graphics</td>
+    <td>Theory of Computation</td>
+ </tr>
+ <tr>
+    <td>Computational Linguistics</td>
+    <td>Computational Neuroscience</td>
+ </tr>
+ <tr>
+    <td>Linguistics</td>
+    <td>Etymology</td>
+ </tr>
+  <tr>
+    <td>World History</td>
+    <td>Anthropology</td>
+ </tr>
+  <tr>
+    <td>Software Development</td>
+    <td>Music</td>
  </tr>
 </table>
 
