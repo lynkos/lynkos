@@ -73,83 +73,73 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 <table>
   <tr>
    <td>Quantum Cybersecurity</td>
-   <td>Internet of Things (IoT)</td>
- </tr>
- <tr>
    <td>Quantum Computing</td>
    <td>Quantum Networking</td>
  </tr>
  <tr>
-    <td>Machine Learning</td>
-    <td>Artificial Intelligence</td>
+   <td>Machine Learning</td>
+   <td>Artificial Intelligence</td>
+   <td>Internet of Things (IoT)</td>
  </tr>
  <tr>
-    <td>Computer Science</td>
-    <td>Mathematics</td>
+   <td>Computational Linguistics</td>
+   <td>Cognitive Science</td>
+   <td>Computational Neuroscience</td>
  </tr>
  <tr>
-    <td>Cognitive Science</td>
-    <td>Statistics</td>
- </tr>
- <tr>
-    <td>Graph Theory</td>
-    <td>Computer Networking</td>
- </tr>
- <tr>
-    <td>Cryptography</td>
-    <td>Cryptology</td>
- </tr>
- <tr>
+    <td>Cybersecurity</td>
+    <td>Computer Graphics</td>
     <td>Cloud Computing</td>
-    <td>Data Science</td>
  </tr>
  <tr>
-    <td>Neuroscience</td>
-    <td>Psychology</td>
+    <td>Ubiquitous Computing</td>
+    <td>Computer Networking</td>
+    <td>Robotics</td>
  </tr>
  <tr>
     <td>Computer Vision</td>
     <td>Natural Language Processing</td>
+    <td>Evolutionary Computing</td>
  </tr>
  <tr>
-    <td>Distributed Computing</td>
-    <td>Ubiquitous Computing</td>
- </tr>
- <tr>
-    <td>Cybersecurity</td>
     <td>Game Theory</td>
+    <td>Theory of Computation</td>
+    <td>Graph Theory</td>
  </tr>
  <tr>
-    <td>Discrete Mathematics</td>
-    <td>Mathematical Logic</td>
- </tr>
- <tr>
+    <td>Cryptography</td>
     <td>Algorithms</td>
-    <td>Data Structures</td>
+    <td>Cryptology</td>
  </tr>
  <tr>
     <td>Data Mining</td>
-    <td>Robotics</td>
+    <td>Distributed Computing</td>
+    <td>Data Science</td>
  </tr>
  <tr>
-    <td>Computer Graphics</td>
-    <td>Theory of Computation</td>
+    <td>Computer Science</td>
+    <td>Mathematics</td>
+    <td>Statistics</td>
  </tr>
  <tr>
-    <td>Computational Linguistics</td>
-    <td>Computational Neuroscience</td>
+    <td>Discrete Mathematics</td>
+    <td>Data Structures</td>
+    <td>Software Development</td>
+ </tr>
+ <tr>
+    <td>Neuroscience</td>
+    <td>Psychology</td>
+    <td>Mathematical Logic</td>
  </tr>
  <tr>
     <td>Linguistics</td>
     <td>Etymology</td>
+    <td>Music</td>
  </tr>
   <tr>
     <td>World History</td>
     <td>Anthropology</td>
- </tr>
-  <tr>
-    <td>Software Development</td>
-    <td>Music</td>
+    <td>Philosophy</td>
  </tr>
 </table>
 
