@@ -28,7 +28,6 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Code&message=Qiskit&logo=qiskit&color=39ae39&labelColor=393939&logoColor=white)
 
 <!-- Tools -->
-![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Office&logo=microsoft&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Bitbucket&logo=bitbucket&color=ae3939&labelColor=393939&logoColor=white)
@@ -46,6 +45,12 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Tools&message=Prometheus&logo=prometheus&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Cloud+Computing&logo=icloud&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Word&logo=microsoft+word&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Excel&logo=microsoft+excel&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+PowerPoint&logo=microsoft+powerpoint&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Outlook&logo=microsoft+outlook&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+Teams&logo=microsoft+teams&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Microsoft+OneNote&logo=microsoft+onenote&color=ae3939&labelColor=393939&logoColor=white)
 
 <!-- IDE -->
 ![](https://img.shields.io/static/v1?label=IDE&message=Visual+Studio+Code&logo=visual+studio+code&color=a03fc0&labelColor=393939&logoColor=white)
