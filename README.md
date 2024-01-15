@@ -34,6 +34,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Tools&message=Grafana&logo=grafana&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Jira&logo=jira&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Confluence&logo=confluence&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=VMware+Fusion&logo=vmware&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Homebrew&logo=homebrew&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Vim&logo=vim&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Maven&logo=apache+maven&color=ae3939&labelColor=393939&logoColor=white)
@@ -42,7 +43,6 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Tools&message=Conda&logo=anaconda&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Prometheus&logo=prometheus&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=GIMP&logo=gimp&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Cloud+Computing&logo=icloud&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=MongoDB&logo=mongodb&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Docker&logo=docker&color=ae3939&labelColor=393939&logoColor=white)
@@ -63,6 +63,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 
 <!-- OS -->
 ![](https://img.shields.io/static/v1?label=OS&message=macOS&logo=apple&color=3f7fc0&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=OS&message=Ubuntu&logo=ubuntu&color=3f7fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=3f7fc0&labelColor=393939&logoColor=white)
 
 <!-- Languages -->
