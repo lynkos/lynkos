@@ -59,7 +59,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 
 <!-- Shell -->
 ![](https://img.shields.io/static/v1?label=Shell&message=iTerm2+(Bash)&logo=gnu+bash&color=white&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Shell&message=iTerm2+(Zsh)&logo=powershell&color=white&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Shell&message=iTerm2+(Zsh)&logo=zsh&color=white&labelColor=393939&logoColor=white)
 
 <!-- OS -->
 ![](https://img.shields.io/static/v1?label=OS&message=macOS&logo=apple&color=3f7fc0&labelColor=393939&logoColor=white)
