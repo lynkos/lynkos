@@ -16,7 +16,6 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Code&message=C&logo=c&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=C%2B%2B&logo=c%2B%2B&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=R&logo=r&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=JavaScript&logo=javascript&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=MySQL&logo=mysql&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=JSON&logo=json&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=YAML&logo=yaml&color=39ae39&labelColor=393939&logoColor=white)
@@ -33,7 +32,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Spring+Framework&logo=spring&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Bootstrap&logo=bootstrap&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=React&logo=react&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Vue&logo=vue.js&color=c0713f&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Frameworks&message=Vue.js&logo=vue.js&color=c0713f&labelColor=393939&logoColor=white)
 
 <!-- Tools -->
 ![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=ae3939&labelColor=393939&logoColor=white)
