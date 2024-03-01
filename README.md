@@ -156,4 +156,4 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![Visitor Count](https://profile-counter.glitch.me/lynkos/count.svg)<br>
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&hide_border=true&langs_count=5&layout=donut&theme=chartreuse-dark)
 
-<sup>Note: These stats do not include my contributions to private repos.</sup>
+<sup>Note: These stats do not include my contributions to private repositories.</sup>
