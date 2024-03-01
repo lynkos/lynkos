@@ -28,11 +28,12 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Qiskit&logo=qiskit&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Keras&logo=keras&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=TensorFlow&logo=tensorflow&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Vue&logo=vue.js&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=React&logo=react&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Bootstrap&logo=bootstrap&color=c0713f&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Frameworks&message=NumPy&logo=numpy&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Maven&logo=apache+maven&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Spring+Framework&logo=spring&color=c0713f&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Frameworks&message=Bootstrap&logo=bootstrap&color=c0713f&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Frameworks&message=React&logo=react&color=c0713f&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Frameworks&message=Vue&logo=vue.js&color=c0713f&labelColor=393939&logoColor=white)
 
 <!-- Tools -->
 ![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=ae3939&labelColor=393939&logoColor=white)
