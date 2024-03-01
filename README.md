@@ -75,8 +75,8 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=3f7fc0&labelColor=393939&logoColor=white)
 
 <!-- Languages -->
-![](https://img.shields.io/static/v1?label=Languages&message=English&color=9e8a31&labelColor=393939)
-![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=9e8a31&labelColor=393939)
+![](https://img.shields.io/static/v1?label=Languages&message=English&color=9b9129&labelColor=393939)
+![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=9b9129&labelColor=393939)
 
 ## 🔬&nbsp; Research Interests
 <table>
