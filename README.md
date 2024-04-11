@@ -25,9 +25,13 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 
 <!-- Frameworks -->
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Qiskit&logo=qiskit&color=c0713f&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Frameworks&message=OpenCV&logo=opencv&color=c0713f&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Frameworks&message=PyTorch&logo=pytorch&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Keras&logo=keras&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=TensorFlow&logo=tensorflow&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=NumPy&logo=numpy&color=c0713f&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Frameworks&message=Arduino&logo=arduino&color=c0713f&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Frameworks&message=Espressif&logo=espressif&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=SymPy&logo=sympy&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Maven&logo=apache+maven&color=c0713f&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Spring&logo=spring&color=c0713f&labelColor=393939&logoColor=white)
@@ -47,6 +51,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Tools&message=Vim&logo=vim&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Jupyter&logo=jupyter&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Conda&logo=anaconda&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=PlatformIO&logo=platformio&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=PyPI&logo=pypi&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Prometheus&logo=prometheus&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Slack&logo=slack&color=ae3939&labelColor=393939&logoColor=white)
