@@ -9,8 +9,8 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 
 ## 💻&nbsp; Skills
 <!-- Code -->
-![](https://img.shields.io/static/v1?label=Code&message=Java&logo=oracle&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=Python&logo=python&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Java&logo=oracle&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=HTML&logo=html5&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=CSS&logo=css3&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=C&logo=c&color=39ae39&labelColor=393939&logoColor=white)
