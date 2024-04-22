@@ -86,7 +86,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=9b9129&labelColor=393939)
 
 ## 🔬&nbsp; Research Interests
-<table>
+<table align="center" style="width: 100%;">
   <tr>
    <td>Quantum Cybersecurity</td>
    <td>Quantum Computing</td>
@@ -159,11 +159,26 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
  </tr>
 </table>
 
-## 📊&nbsp; Profile Data
-![Visitor Count](https://profile-counter.glitch.me/lynkos/count.svg)<br>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&layout=donut&theme=chartreuse-dark&hide_border=true)
-
-<sup>Note: These stats do not include my contributions to private repositories.</sup>
-
-## 🎧&nbsp; Currently Listening
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true)
+## 📊&nbsp; Statistics
+<table align="center" style="width: 100%;">
+  <thead>
+    <tr>
+      <th>👤&nbsp; Profile Stats</th>
+      <th>🎧&nbsp; Currently Listening</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        	<img src="https://profile-counter.glitch.me/lynkos/count.svg"><br>
+			    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&layout=donut&theme=chartreuse-dark&hide_border=true"><br>
+            <center><sup>Note: These stats do not include my contributions to private repositories.</sup></center>
+      </td>
+      <td align="center">
+        	<a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
+            <img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true">
+          </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
