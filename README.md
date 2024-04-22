@@ -175,8 +175,16 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 	  <tbody>
 	    <tr>
 	      <td align="center">
-		      <img src="https://profile-counter.glitch.me/lynkos/count.svg"><br>
-		      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&layout=donut&theme=chartreuse-dark&hide_border=true"><br>
+		      <img src="https://komarev.com/ghpvc/?username=lynkos&color=BF94E4&base=1413&style=for-the-badge"><br>
+		      <picture>
+			  <source
+			    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&show_icons=true&layout=donut&theme=nightowl&hide_border=true"
+			    media="(prefers-color-scheme: dark)" />
+			  <source
+			    srcset="https://github-readme-stats.vercel.app/api?username=lynkos&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
+			    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+			  <img src="https://github-readme-stats.vercel.app/api?username=lynkos&show_icons=true&layout=donut&hide_border=true" />
+			</picture><br>
 		      <center><sup>Note: These stats do not include my contributions to private repositories.</sup></center>
 	      </td>
 	      <td align="center">
