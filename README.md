@@ -5,7 +5,7 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 
 I also enjoy reading research papers and watching YouTube channels (e.g. <a href="https://www.youtube.com/user/keeroyz" target="_blank">Two Minute Papers</a>, <a href="https://www.youtube.com/c/3blue1brown" target="_blank">3Blue1Brown</a>, etc). If I had to name a research paper that's currently piqued my interest, it'd have to be <a href="https://ieeexplore.ieee.org/document/8967098" target="_blank">Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant to Quantum Computing Attacks</a> by Tiago M. Fernández-Caramès and Paula Fraga-Lamas.
 
-<a href="https://twitter.com/0xLynkos" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" width="31px" height="27px" alt="Twitter" /></a>&nbsp; <a href="https://instagr.am/overanalyse" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" alt="Instagram" /></a> &nbsp; <a href="https://www.linkedin.com/in/kiran-brahmatewari" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" alt="LinkedIn" /></a> &nbsp; <a href="https://open.spotify.com/user/kiwi2mii" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" width="28px" height="28px" alt="Spotify" /></a>
+<a href="https://twitter.com/0xLynkos" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" width="31px" height="27px" alt="Twitter" /></a>&nbsp; <a href="https://instagr.am/overanalyse" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" alt="Instagram" /></a> &nbsp; <a href="https://www.linkedin.com/in/kiran-brahmatewari" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" alt="LinkedIn" /></a> &nbsp; <a target="_blank" href="https://open.spotify.com/user/kiwi2mii"><img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=natemoo-re&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" height="30px" alt="Spotify" /></a>
 
 ## 💻&nbsp; Skills
 <!-- Code -->
@@ -201,21 +201,4 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 	  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=lynkos&show_icons=true&layout=donut&hide_border=true" />
 	</picture></div><br>
 	<p style="text-align: center;" align="center"><sup>Note: These stats do not include my contributions to private repositories.</sup></p>
-</details>
-
-<details>
-   <summary><h2>🎧&nbsp; Currently Listening</h2></summary>
-	<div align="center">
-	      <picture><a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
-		  <!-- Dark mode Spotify  -->
-		  <source
-		    srcset="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&background_color=0E1116&interchange=false"
-		    media="(prefers-color-scheme: dark)" />
-		  <!-- Light + Default mode Spotify -->
-		  <source
-		    srcset="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&background_color=ffffff&interchange=false"
-		    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-		  <img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&interchange=false">
-		</a></picture>
-	</div>
 </details>
