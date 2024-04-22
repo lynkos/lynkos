@@ -175,7 +175,15 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 	  <tbody>
 	    <tr>
 	      <td align="center">
-		      <img src="https://komarev.com/ghpvc/?username=lynkos&color=BF94E4&base=1413&style=for-the-badge"><br>
+		      <picture>
+			      <source
+				srcset="https://komarev.com/ghpvc/?username=lynkos&color=BF94E4&base=1413&style=for-the-badge"
+			    	media="(prefers-color-scheme: dark)"/>
+			      <source
+				srcset="https://komarev.com/ghpvc/?username=lynkos&color=4689CC&base=1413&style=for-the-badge"
+			    	media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+			      <img src="https://komarev.com/ghpvc/?username=lynkos&base=1413&style=for-the-badge" />
+		      </picture><br>
 		      <picture>
 			  <source
 			    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&show_icons=true&layout=donut&theme=nightowl&hide_border=true"
