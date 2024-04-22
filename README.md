@@ -170,14 +170,14 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
   <tbody>
     <tr>
       <td align="center">
-        	<img src="https://profile-counter.glitch.me/lynkos/count.svg"><br>
-			    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&layout=donut&theme=chartreuse-dark&hide_border=true"><br>
-            <center><sup>Note: These stats do not include my contributions to private repositories.</sup></center>
+	      <img src="https://profile-counter.glitch.me/lynkos/count.svg"><br>
+	      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&layout=donut&theme=chartreuse-dark&hide_border=true"><br>
+	      <center><sup>Note: These stats do not include my contributions to private repositories.</sup></center>
       </td>
       <td align="center">
-        	<a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
-            <img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true">
-          </a>
+        <a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
+		<img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true">
+	</a>
       </td>
     </tr>
   </tbody>
