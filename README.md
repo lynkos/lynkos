@@ -165,42 +165,47 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 <!-- Statistics -->
 <details>
    <summary><h2>📊&nbsp; Statistics</h2></summary>
-	<table align="center" style="width: 100%;">
-	  <thead>
-	    <tr>
-	      <th>👤&nbsp; Profile Stats</th>
-	      <th>🎧&nbsp; Currently Listening</th>
-	    </tr>
-	  </thead>
-	  <tbody>
-	    <tr>
-	      <td align="center">
-		      <picture>
-			      <source
-				srcset="https://komarev.com/ghpvc/?username=lynkos&color=BF94E4&base=1413&style=for-the-badge"
-			    	media="(prefers-color-scheme: dark)"/>
-			      <source
-				srcset="https://komarev.com/ghpvc/?username=lynkos&color=4689CC&base=1413&style=for-the-badge"
-			    	media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-			      <img src="https://komarev.com/ghpvc/?username=lynkos&base=1413&style=for-the-badge" />
-		      </picture><br>
-		      <picture>
-			  <source
-			    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&show_icons=true&layout=donut&theme=nightowl&hide_border=true"
-			    media="(prefers-color-scheme: dark)" />
-			  <source
-			    srcset="https://github-readme-stats.vercel.app/api?username=lynkos&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
-			    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-			  <img src="https://github-readme-stats.vercel.app/api?username=lynkos&show_icons=true&layout=donut&hide_border=true" />
-			</picture><br>
-		      <center><sup>Note: These stats do not include my contributions to private repositories.</sup></center>
-	      </td>
-	      <td align="center">
-	        <a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
-			<img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true">
-		</a>
-	      </td>
-	    </tr>
-	  </tbody>
-	</table>
+	<div align="center">
+	<picture>
+	<!-- Dark mode profile counter -->
+	<source
+	  srcset="https://komarev.com/ghpvc/?username=lynkos&color=4689CC&base=1413&style=for-the-badge"
+	  media="(prefers-color-scheme: dark)"/>
+	<!-- Light + Default mode profile counter -->
+	<source
+	  srcset="https://komarev.com/ghpvc/?username=lynkos&color=4689CC&base=1413&style=for-the-badge"
+	  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+	<img align="center" src="https://komarev.com/ghpvc/?username=lynkos&base=1413&style=for-the-badge" />
+	</picture></div><br>
+	<div align="center">
+	<picture>
+	  <!-- Dark mode profile stats -->
+	  <source
+	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true"
+	    media="(prefers-color-scheme: dark)" />
+	  <!-- Light + Default mode profile stats -->
+	  <source
+	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
+	    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+	  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&hide_border=true" />
+	</picture>
+	<picture>
+	  <!-- Dark mode top languages -->
+	  <source
+	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true"
+	    media="(prefers-color-scheme: dark)" />
+	  <!-- Light + Default mode top languages -->
+	  <source
+	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
+	    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+	  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=lynkos&show_icons=true&layout=donut&hide_border=true" />
+	</picture></div><br>
+	<p style="text-align: center;" align="center"><sup>Note: These stats do not include my contributions to private repositories.</sup></p>
+</details>
+
+<details>
+   <summary><h2>🎧&nbsp; Currently Listening</h2></summary>
+	<a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
+	<img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true">
+	</a>
 </details>
