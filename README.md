@@ -209,7 +209,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 	      <picture><a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
 		  <!-- Dark mode Spotify  -->
 		  <source
-		    srcset="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&background_color=121212&interchange=false"
+		    srcset="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&background_color=0E1116&interchange=false"
 		    media="(prefers-color-scheme: dark)" />
 		  <!-- Light + Default mode Spotify -->
 		  <source
