@@ -164,3 +164,6 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&layout=donut&theme=chartreuse-dark&hide_border=true)
 
 <sup>Note: These stats do not include my contributions to private repositories.</sup>
+
+## 🎧&nbsp; Currently Listening
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&background_color=000000&interchange=true)](https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true)
