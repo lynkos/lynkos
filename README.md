@@ -166,4 +166,4 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 <sup>Note: These stats do not include my contributions to private repositories.</sup>
 
 ## 🎧&nbsp; Currently Listening
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&background_color=000000&interchange=true)](https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true)
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=novatorem&show_offline=true&background_color=000000&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true)
