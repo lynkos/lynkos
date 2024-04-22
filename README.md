@@ -205,7 +205,17 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 
 <details>
    <summary><h2>🎧&nbsp; Currently Listening</h2></summary>
-	<div align="center"><a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
-	<img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&background_color=121212&interchange=false">
-	</a></div>
+	<div align="center">
+	      <picture><a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
+		  <!-- Dark mode Spotify  -->
+		  <source
+		    srcset="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&background_color=121212&interchange=false"
+		    media="(prefers-color-scheme: dark)" />
+		  <!-- Light + Default mode Spotify -->
+		  <source
+		    srcset="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&background_color=ffffff&interchange=false"
+		    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+		  <img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&interchange=false">
+		</a></picture>
+	</div>
 </details>
