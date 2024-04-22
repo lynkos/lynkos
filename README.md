@@ -205,7 +205,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 
 <details>
    <summary><h2>🎧&nbsp; Currently Listening</h2></summary>
-	<a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
-	<img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true">
-	</a>
+	<div align="center"><a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
+	<img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=compact&show_offline=true&background_color=121212&interchange=false">
+	</a></div>
 </details>
