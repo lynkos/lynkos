@@ -1,4 +1,6 @@
-## 👋🏽&nbsp; Greetings
+<details open>
+   <summary><h2>👋🏽&nbsp; Greetings</h2></summary>
+	
 I'm Kiran (she/her): A quick-learning undergrad with a passion for creating and an interest in STEM research. My areas of focus (i.e. major and minors) are Computer Science, Mathematics, and Statistics. I'm a 3x Software Engineer Intern at Oracle Cloud during Summers 2021 – 2023. I'm currently a Research Assistant at <a href="https://acyd.fiu.edu" target="_blank">Analytics for Cyber Defense (ACyD) Lab</a>, where I'm investigating novel applications of post-quantum cybersecurity in order to ensure the resilience of Internet of Things (IoT) against quantum hacking.
 
 I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGRAPHY%20PORTFOLIO.pdf" target="_blank">photography</a> (Nikon D5100 DSLR), listening to music, reading, journaling/writing, doodling, daydreaming, creating, fashion, design, skincare, watching <a href="https://myanimelist.net/profile/lynkos" target="_blank">anime</a>, cooking, vibing with friends, programming/cybersecurity competitions (e.g. capture the flags (CTFs), hackathons, etc), and memes during my downtime. <a href="https://lynkos420.blogspot.com" target="_blank">This blog</a> contains some of my solutions to certain CTF puzzles/problems; it's a relic from the past as I created and contributed to it during my last 2 years of high school.
@@ -6,8 +8,11 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 I also enjoy reading research papers and watching YouTube channels (e.g. <a href="https://www.youtube.com/user/keeroyz" target="_blank">Two Minute Papers</a>, <a href="https://www.youtube.com/c/3blue1brown" target="_blank">3Blue1Brown</a>, etc). If I had to name a research paper that's currently piqued my interest, it'd have to be <a href="https://ieeexplore.ieee.org/document/8967098" target="_blank">Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant to Quantum Computing Attacks</a> by Tiago M. Fernández-Caramès and Paula Fraga-Lamas.
 
 <p align="left"><a href="https://twitter.com/0xLynkos" target="_blank"><img align="middle" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" width="31px" height="27px" hspace="5" alt="Twitter" /></a><a href="https://instagr.am/overanalyse" target="_blank"><img align="middle" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" hspace="5" alt="Instagram" /></a><a href="https://www.linkedin.com/in/kiran-brahmatewari" target="_blank"><img align="middle" src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" hspace="5" alt="LinkedIn" /></a><a target="_blank" href="https://open.spotify.com/user/kiwi2mii"><img align="middle" src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=natemoo-re&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" height="75px" hspace="5" alt="Spotify" /></a></p>
+</details>
 
-## 💻&nbsp; Skills
+<details open>
+   <summary><h2>💻&nbsp; Skills</h2></summary>
+	
 <!-- Code -->
 ![](https://img.shields.io/static/v1?label=Code&message=Python&logo=python&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=Java&logo=oracle&color=39ae39&labelColor=393939&logoColor=white)
@@ -86,6 +91,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 <!-- Languages -->
 ![](https://img.shields.io/static/v1?label=Languages&message=English&color=9b9129&labelColor=393939)
 ![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=9b9129&labelColor=393939)
+</details>
 
 <!-- Research Interests -->
 <details>
