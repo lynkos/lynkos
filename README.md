@@ -85,100 +85,106 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 ![](https://img.shields.io/static/v1?label=Languages&message=English&color=9b9129&labelColor=393939)
 ![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=9b9129&labelColor=393939)
 
-## 🔬&nbsp; Research Interests
-<table align="center" style="width: 100%;">
-  <tr>
-   <td>Quantum Cybersecurity</td>
-   <td>Quantum Computing</td>
-   <td>Quantum Networking</td>
- </tr>
- <tr>
-   <td>Machine Learning</td>
-   <td>Artificial Intelligence</td>
-   <td>Internet of Things (IoT)</td>
- </tr>
- <tr>
-   <td>Computational Linguistics</td>
-   <td>Cognitive Science</td>
-   <td>Computational Neuroscience</td>
- </tr>
- <tr>
-    <td>Cybersecurity</td>
-    <td>Computer Graphics</td>
-    <td>Cloud Computing</td>
- </tr>
- <tr>
-    <td>Ubiquitous Computing</td>
-    <td>Computer Networking</td>
-    <td>Robotics</td>
- </tr>
- <tr>
-    <td>Computer Vision</td>
-    <td>Natural Language Processing</td>
-    <td>Evolutionary Computing</td>
- </tr>
- <tr>
-    <td>Game Theory</td>
-    <td>Theory of Computation</td>
-    <td>Graph Theory</td>
- </tr>
- <tr>
-    <td>Cryptography</td>
-    <td>Algorithms</td>
-    <td>Cryptology</td>
- </tr>
- <tr>
-    <td>Data Mining</td>
-    <td>Distributed Computing</td>
-    <td>Data Science</td>
- </tr>
- <tr>
-    <td>Computer Science</td>
-    <td>Mathematics</td>
-    <td>Statistics</td>
- </tr>
- <tr>
-    <td>Discrete Mathematics</td>
-    <td>Data Structures</td>
-    <td>Software Development</td>
- </tr>
- <tr>
-    <td>Neuroscience</td>
-    <td>Psychology</td>
-    <td>Mathematical Logic</td>
- </tr>
- <tr>
-    <td>Linguistics</td>
-    <td>Etymology</td>
-    <td>Music</td>
- </tr>
-  <tr>
-    <td>World History</td>
-    <td>Anthropology</td>
-    <td>Philosophy</td>
- </tr>
-</table>
+<!-- Research Interests -->
+<details>
+   <summary><h2>🔬&nbsp; Research Interests</h2></summary>
+	<table align="center" style="width: 100%;">
+	  <tr>
+	   <td>Quantum Cybersecurity</td>
+	   <td>Quantum Computing</td>
+	   <td>Quantum Networking</td>
+	 </tr>
+	 <tr>
+	   <td>Machine Learning</td>
+	   <td>Artificial Intelligence</td>
+	   <td>Internet of Things (IoT)</td>
+	 </tr>
+	 <tr>
+	   <td>Computational Linguistics</td>
+	   <td>Cognitive Science</td>
+	   <td>Computational Neuroscience</td>
+	 </tr>
+	 <tr>
+	    <td>Cybersecurity</td>
+	    <td>Computer Graphics</td>
+	    <td>Cloud Computing</td>
+	 </tr>
+	 <tr>
+	    <td>Ubiquitous Computing</td>
+	    <td>Computer Networking</td>
+	    <td>Robotics</td>
+	 </tr>
+	 <tr>
+	    <td>Computer Vision</td>
+	    <td>Natural Language Processing</td>
+	    <td>Evolutionary Computing</td>
+	 </tr>
+	 <tr>
+	    <td>Game Theory</td>
+	    <td>Theory of Computation</td>
+	    <td>Graph Theory</td>
+	 </tr>
+	 <tr>
+	    <td>Cryptography</td>
+	    <td>Algorithms</td>
+	    <td>Cryptology</td>
+	 </tr>
+	 <tr>
+	    <td>Data Mining</td>
+	    <td>Distributed Computing</td>
+	    <td>Data Science</td>
+	 </tr>
+	 <tr>
+	    <td>Computer Science</td>
+	    <td>Mathematics</td>
+	    <td>Statistics</td>
+	 </tr>
+	 <tr>
+	    <td>Discrete Mathematics</td>
+	    <td>Data Structures</td>
+	    <td>Software Development</td>
+	 </tr>
+	 <tr>
+	    <td>Neuroscience</td>
+	    <td>Psychology</td>
+	    <td>Mathematical Logic</td>
+	 </tr>
+	 <tr>
+	    <td>Linguistics</td>
+	    <td>Etymology</td>
+	    <td>Music</td>
+	 </tr>
+	  <tr>
+	    <td>World History</td>
+	    <td>Anthropology</td>
+	    <td>Philosophy</td>
+	 </tr>
+	</table>
+</details>
 
-## 📊&nbsp; Statistics
-<table align="center" style="width: 100%;">
-  <thead>
-    <tr>
-      <th>👤&nbsp; Profile Stats</th>
-      <th>🎧&nbsp; Currently Listening</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">
-	      <img src="https://profile-counter.glitch.me/lynkos/count.svg"><br>
-	      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&layout=donut&theme=chartreuse-dark&hide_border=true"><br>
-	      <center><sup>Note: These stats do not include my contributions to private repositories.</sup></center>
-      </td>
-      <td align="center">
-        <a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
-		<img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true">
-	</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<!-- Statistics -->
+<details>
+   <summary><h2>📊&nbsp; Statistics</h2></summary>
+	<table align="center" style="width: 100%;">
+	  <thead>
+	    <tr>
+	      <th>👤&nbsp; Profile Stats</th>
+	      <th>🎧&nbsp; Currently Listening</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td align="center">
+		      <img src="https://profile-counter.glitch.me/lynkos/count.svg"><br>
+		      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&layout=donut&theme=chartreuse-dark&hide_border=true"><br>
+		      <center><sup>Note: These stats do not include my contributions to private repositories.</sup></center>
+	      </td>
+	      <td align="center">
+	        <a href="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&redirect=true">
+			<img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true">
+		</a>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+</details>
