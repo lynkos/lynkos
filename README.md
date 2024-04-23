@@ -7,26 +7,26 @@ I enjoy traveling, <a href="https://github.com/lynkos/lynkos/blob/master/PHOTOGR
 
 I also enjoy reading research papers and watching YouTube channels (e.g. <a href="https://www.youtube.com/user/keeroyz" target="_blank">Two Minute Papers</a>, <a href="https://www.youtube.com/c/3blue1brown" target="_blank">3Blue1Brown</a>, etc). If I had to name a research paper that's currently piqued my interest, it'd have to be <a href="https://ieeexplore.ieee.org/document/8967098" target="_blank">Towards Post-Quantum Blockchain: A Review on Blockchain Cryptography Resistant to Quantum Computing Attacks</a> by Tiago M. Fernández-Caramès and Paula Fraga-Lamas.
 
-<p align="left"><a href="https://twitter.com/0xLynkos" target="_blank"><img align="middle" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" width="31px" height="27px" hspace="5" alt="Twitter" /></a><a href="https://instagr.am/overanalyse" target="_blank"><img align="middle" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" hspace="5" alt="Instagram" /></a><a href="https://www.linkedin.com/in/kiran-brahmatewari" target="_blank"><img align="middle" src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" hspace="5" alt="LinkedIn" /></a><a target="_blank" href="https://open.spotify.com/user/kiwi2mii"><img align="middle" src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=natemoo-re&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" height="75px" hspace="5" alt="Spotify" /></a></p>
+<p align="center"><a href="https://twitter.com/0xLynkos" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" width="31px" height="27px" align="center" hspace="5" alt="Twitter" /></a><a href="https://instagr.am/overanalyse" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" align="center" hspace="5" alt="Instagram" /></a><a href="https://www.linkedin.com/in/kiran-brahmatewari" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" align="center" hspace="5" alt="LinkedIn" /></a><a target="_blank" href="https://open.spotify.com/user/kiwi2mii"><img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=natemoo-re&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" height="75px" hspace="5" align="center" alt="Spotify" /></a></p>
 </details>
 
 <details open>
    <summary><h2>💻&nbsp; Skills</h2></summary>
 	
-<!-- Code -->
+<!-- Code -->	
 ![](https://img.shields.io/static/v1?label=Code&message=Python&logo=python&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=Java&logo=oracle&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=HTML&logo=html5&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=CSS&logo=css3&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=C&logo=c&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=C%2B%2B&logo=c%2B%2B&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=R&logo=r&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=MySQL&logo=mysql&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=Markdown&logo=markdown&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=LaTeX&logo=latex&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=JSON&logo=json&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=YAML&logo=yaml&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=Terraform&logo=terraform&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=LaTeX&logo=latex&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Markdown&logo=markdown&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=R&logo=r&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=MySQL&logo=mysql&color=39ae39&labelColor=393939&logoColor=white)
 
 <!-- Frameworks -->
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Qiskit&logo=qiskit&color=c0713f&labelColor=393939&logoColor=white)
@@ -96,7 +96,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 <!-- Research Interests -->
 <details>
    <summary><h2>🔬&nbsp; Research Interests</h2></summary>
-	<table align="center" style="width: 100%;">
+	<table style="width: 100%;">
 	  <tr>
 	   <td>Quantum Cybersecurity</td>
 	   <td>Quantum Computing</td>
