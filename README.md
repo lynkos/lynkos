@@ -155,7 +155,7 @@ I also enjoy reading research papers and watching YouTube channels (e.g. <a href
 	 <tr>
 	    <td>Neuroscience</td>
 	    <td>Psychology</td>
-	    <td>Mathematical Logic</td>
+	    <td>Neuromorphic Computing</td>
 	 </tr>
 	 <tr>
 	    <td>Linguistics</td>
