@@ -172,11 +172,11 @@
 	<!-- Dark mode profile counter -->
 	<source
 	  srcset="https://komarev.com/ghpvc/?username=lynkos&color=4689CC&base=1413&style=flat"
-	  media="(prefers-color-scheme: dark)"/>
+	  media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"/>
 	<!-- Light + Default mode profile counter -->
 	<source
 	  srcset="https://komarev.com/ghpvc/?username=lynkos&color=4689CC&base=1413&style=flat"
-	  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+	  media="(prefers-color-scheme: light)" />
 	<img align="center" src="https://komarev.com/ghpvc/?username=lynkos&base=1413&style=flat" />
 	</picture></div><br>
 	<div align="center">
@@ -184,22 +184,22 @@
 	  <!-- Dark mode profile stats -->
 	  <source
 	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true"
-	    media="(prefers-color-scheme: dark)" />
+	    media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)" />
 	  <!-- Light + Default mode profile stats -->
 	  <source
 	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
-	    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+	    media="(prefers-color-scheme: light)" />
 	  <img height=225 align="center" src="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&hide_border=true" />
 	</picture>
 	<picture>
 	  <!-- Dark mode top languages -->
 	  <source
 	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=7&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true"
-	    media="(prefers-color-scheme: dark)" />
+	    media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)" />
 	  <!-- Light + Default mode top languages -->
 	  <source
 	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=7&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
-	    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+	    media="(prefers-color-scheme: light)" />
 	  <img height=225 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=lynkos&langs_count=7&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&hide_border=true" />
 	</picture></div><br>
 	<p style="text-align: center;" align="center"><sup>Note: These stats do not include my contributions to private repositories.</sup></p>
