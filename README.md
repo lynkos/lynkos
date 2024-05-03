@@ -1,5 +1,5 @@
 <details open>
-   <summary><h2>👋🏽&nbsp; Hi</h2></summary>
+   <summary><h2>👋🏽&nbsp; Hey</h2></summary>
 	
 <p align="center">I'm Kiran (she/her)</p>
 
