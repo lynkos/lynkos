@@ -1,7 +1,9 @@
 <details open>
    <summary><h2>👋🏽&nbsp; Hi</h2></summary>
 	
-I'm Kiran (she/her)
+<p align="center">I'm Kiran (she/her)</p>
+
+<p align="center"><a href="https://twitter.com/0xLynkos" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" width="31px" height="27px" align="center" hspace="5" alt="Twitter" /></a><a href="https://instagr.am/overanalyse" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" align="center" hspace="5" alt="Instagram" /></a><a href="https://www.linkedin.com/in/kiran-brahmatewari" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" align="center" hspace="5" alt="LinkedIn" /></a><a target="_blank" href="https://open.spotify.com/user/kiwi2mii"><img src="https://spotify-github-profile.vercel.app/api/view?uid=kiwi2mii&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" height="75px" hspace="5" align="center" alt="Spotify" /></a></p>
 <details open>
    <summary><h2>💻&nbsp; Skills</h2></summary>
 	
