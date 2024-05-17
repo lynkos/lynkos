@@ -66,8 +66,8 @@
 ![](https://img.shields.io/static/v1?label=Tools&message=Oracle+Cloud&logo=oracle&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Oracle+Database&logo=oracle&color=ae3939&labelColor=393939&logoColor=white)
 
-<!-- IDE -->
-![](https://img.shields.io/static/v1?label=IDE&message=Visual+Studio+Code&logo=visual+studio+code&color=a03fc0&labelColor=393939&logoColor=white)
+<!-- IDE / Source Code Editor -->
+![](https://img.shields.io/static/v1?label=Code+Editor&message=Visual+Studio+Code&logo=visual+studio+code&color=a03fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=IDE&message=IntelliJ+IDEA&logo=intellij+idea&color=a03fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=IDE&message=PyCharm&logo=pycharm&color=a03fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=IDE&message=Eclipse&logo=eclipse&color=a03fc0&labelColor=393939&logoColor=white)
