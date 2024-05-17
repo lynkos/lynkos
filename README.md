@@ -92,7 +92,8 @@
 <!-- Research Interests -->
 <details>
    <summary><h2>🔬&nbsp; Research Interests</h2></summary>
-	<table style="width: 100%;">
+	<table align="center" style="width: 100%; display: block; max-width: -moz-fit-content; max-width: fit-content; overflow-x: auto;">
+	  <tbody align="center">
 	  <tr>
 	   <td>Quantum Cybersecurity</td>
 	   <td>Quantum Computing</td>
@@ -163,6 +164,7 @@
 	    <td>Anthropology</td>
 	    <td>Philosophy</td>
 	 </tr>
+	  </tbody>
 	</table>
 </details>
 
