@@ -187,13 +187,13 @@
 	<picture>
 	  <!-- Dark mode profile stats -->
 	  <source
-	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true"
+	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true&custom_title=GitHub+Stats"
 	    media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)" />
 	  <!-- Light + Default mode profile stats -->
 	  <source
-	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
+	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-light&hide_border=true&custom_title=GitHub+Stats"
 	    media="(prefers-color-scheme: light)" />
-	  <img height=225 align="center" src="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&hide_border=true" />
+	  <img height=225 align="center" src="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&hide_border=true&custom_title=GitHub+Stats" />
 	</picture>
 	<picture>
 	  <!-- Dark mode top languages -->
