@@ -98,7 +98,7 @@
 	<table align="center" style="width: 100%; display: block; max-width: -moz-fit-content; max-width: fit-content; overflow-x: auto;">
 	  <tbody align="center">
 	  <tr>
-	   <td>Quantum Cybersecurity</td>
+	   <td>Post-Quantum Cybersecurity</td>
 	   <td>Quantum Computing</td>
 	   <td>Quantum Networking</td>
 	 </tr>
