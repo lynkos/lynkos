@@ -210,5 +210,5 @@
 	    media="(prefers-color-scheme: light)" />
 	  <img height=225 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=lynkos&langs_count=7&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&hide_border=true" />
 	</picture></div><br>
-	<p style="text-align: center;" align="center"><sup>Note: These stats do not include my contributions to private repositories or <a target="_blank" href="https://gist.github.com/lynkos">my GitHub Gists</a>.</sup></p>
+	<p style="text-align: center;" align="center"><sup>Note: These stats do not include my contributions to private repositories or <a target="_blank" href="https://gist.github.com/lynkos">my Gists</a>.</sup></p>
 </details>
