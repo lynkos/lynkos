@@ -71,7 +71,7 @@
 ![](https://img.shields.io/static/v1?label=Tools&message=Oracle+Database&logo=oracle&color=ae3939&labelColor=393939&logoColor=white)
 
 <!-- IDE / Source Code Editor -->
-![](https://img.shields.io/static/v1?label=Code+Editor&message=Visual+Studio+Code&logo=visual+studio+code&color=a03fc0&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code+Editor&message=Visual+Studio+Code&logo=&color=a03fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=IDE&message=IntelliJ+IDEA&logo=intellij+idea&color=a03fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=IDE&message=PyCharm&logo=pycharm&color=a03fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=IDE&message=Eclipse&logo=eclipse&color=a03fc0&labelColor=393939&logoColor=white)
@@ -86,7 +86,7 @@
 <!-- OS -->
 ![](https://img.shields.io/static/v1?label=OS&message=macOS&logo=apple&color=3f7fc0&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=OS&message=Ubuntu&logo=ubuntu&color=3f7fc0&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=windows&color=3f7fc0&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODc1IDQ4NzUiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMjMxMXYyMzEwSDB6bTI1NjQgMGgyMzExdjIzMTBIMjU2NHpNMCAyNTY0aDIzMTF2MjMxMUgwem0yNTY0IDBoMjMxMXYyMzExSDI1NjQiLz48L3N2Zz4=&color=3f7fc0&labelColor=393939&logoColor=white)
 
 <!-- Languages -->
 ![](https://img.shields.io/static/v1?label=Languages&message=English&color=9b9129&labelColor=393939)
