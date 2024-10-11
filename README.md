@@ -70,6 +70,7 @@
 ![](https://img.shields.io/static/v1?label=Tools&message=Docker&logo=docker&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Oracle+Cloud&logo=oracle&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Oracle+Database&logo=oracle&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Eclipse+Papyrus&logo=eclipse&color=ae3939&labelColor=393939&logoColor=white)
 
 <!-- IDE / Source Code Editor -->
 ![](https://img.shields.io/static/v1?label=Code+Editor&message=Visual+Studio+Code&logo=&color=a03fc0&labelColor=393939&logoColor=white)
