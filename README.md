@@ -198,13 +198,13 @@
 	<picture>
 	  <!-- Dark mode top languages -->
 	  <source
-	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=7&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true"
+	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=10&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true"
 	    media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)" />
 	  <!-- Light + Default mode top languages -->
 	  <source
-	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=7&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
+	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=10&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
 	    media="(prefers-color-scheme: light)" />
-	  <img height=225 align="center" alt="Widget listing my most used languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=lynkos&langs_count=7&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&hide_border=true" />
+	  <img height=300 align="center" alt="Widget listing my most used languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=lynkos&langs_count=7&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&hide_border=true" />
 	</picture></div><br>
 	<p style="text-align: center;" align="center"><sup>Note: These stats do not include my contributions to private repositories or <a target="_blank" href="https://gist.github.com/lynkos">my Gists</a>.</sup></p>
 </details>
