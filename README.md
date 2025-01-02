@@ -185,26 +185,38 @@
 	<div align="center">
 	<img align="center" alt="Profile views counter" src="https://komarev.com/ghpvc/?username=lynkos&color=4689CC&base=1413&style=flat" /><br><br>
 	<picture>
-	  <!-- Dark mode profile stats -->
+	  <!-- Dark + Default mode profile stats -->
 	  <source
 	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true&custom_title=GitHub+Stats"
 	    media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)" />
-	  <!-- Light + Default mode profile stats -->
+	  <!-- Light mode profile stats -->
 	  <source
 	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-light&hide_border=true&custom_title=GitHub+Stats"
 	    media="(prefers-color-scheme: light)" />
-	  <img height=225 align="center" src="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&hide_border=true&custom_title=GitHub+Stats" />
-	</picture>
+	  <img height=225 align="center" alt="GitHub profile stats" src="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&hide_border=true&custom_title=GitHub+Stats" />
+	</picture><br>
 	<picture>
-	  <!-- Dark mode top languages -->
+	  <!-- Dark + Default mode GitHub streak -->
+	  <source
+	    srcset="https://github-readme-streak-stats.herokuapp.com?user=lynkos&theme=solarized-dark&hide_border=true"
+	    media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)" />
+	  <!-- Light mode GitHub streak -->
+	  <source
+	    srcset="https://github-readme-streak-stats.herokuapp.com?user=lynkos&theme=solarized-light&hide_border=true"
+	    media="(prefers-color-scheme: light)" />
+	  <img height=200 align="center" alt="GitHub streak stats" src="https://github-readme-streak-stats.herokuapp.com?user=lynkos&hide_border=true" />
+	</picture><br>
+	<picture>
+	  <!-- Dark + Default mode top languages -->
 	  <source
 	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true"
 	    media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)" />
-	  <!-- Light + Default mode top languages -->
+	  <!-- Light mode top languages -->
 	  <source
 	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
 	    media="(prefers-color-scheme: light)" />
 	  <img height=300 align="center" alt="Widget listing my most used languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&hide_border=true" />
-	</picture></div><br>
+	</picture>
+	</div><br>
 	<p style="text-align: center;" align="center"><sup>Note: These stats do not include my contributions to private repositories or <a target="_blank" href="https://gist.github.com/lynkos">my Gists</a>.</sup></p>
 </details>
