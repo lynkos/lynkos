@@ -175,7 +175,12 @@
 	    <td>Anthropology</td>
 	    <td>Philosophy</td>
 	 </tr>
-	  </tbody>
+	<tr>
+		<td>Terahertz Communication</td>
+		<td></td>
+		<td></td>
+	</tr>
+	</tbody>
 	</table>
 </details>
 
