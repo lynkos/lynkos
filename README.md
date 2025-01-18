@@ -3,7 +3,7 @@
 	
 <p align="center">I'm Kiran. I enjoy creating, exploring, and experimenting (among other things).</p>
 
-<p align="center"><a href="https://instagr.am/overanalyse" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" align="center" hspace="5" alt="Instagram" /></a><a href="https://www.linkedin.com/in/kiran-brahmatewari" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" align="center" hspace="5" alt="LinkedIn" /></a><a href="https://x.com/0xLynkos" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/X_icon_2.svg" width="28px" height="28px" align="center" hspace="4" alt="X" /></a><a href="https://steamcommunity.com/id/overanalyse" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="28px" height="28px" align="center" hspace="4" alt="Steam" /></a><a href="https://open.spotify.com/user/kiwi2mii" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" width="28px" height="28px" align="center" hspace="4" alt="Spotify" /></a><a target="_blank" href="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&redirect=true"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" height="75px" align="center" alt="Spotify" /></a></p>
+<p align="center"><a href="https://instagr.am/overanalyse" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" align="center" hspace="5" alt="Instagram"></a><a href="https://www.linkedin.com/in/kiran-brahmatewari" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" align="center" hspace="5" alt="LinkedIn"></a><a href="https://x.com/0xLynkos" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/X_icon_2.svg" width="28px" height="28px" align="center" hspace="4" alt="X"></a><a href="https://steamcommunity.com/id/overanalyse" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" width="28px" height="28px" align="center" hspace="4" alt="Steam"></a><a href="https://open.spotify.com/user/kiwi2mii" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" width="28px" height="28px" align="center" hspace="4" alt="Spotify"></a><a target="_blank" href="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&redirect=true"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" height="75px" align="center" alt="Spotify"></a></p>
 </details>
 
 <details open>
@@ -188,40 +188,23 @@
 <details>
    <summary><h2>📊&nbsp; Statistics</h2></summary>
 	<div align="center">
-	<img align="center" alt="Profile views counter" src="https://komarev.com/ghpvc/?username=lynkos&color=4689CC&base=1413&style=flat" /><br><br>
-	<picture>
-	  <!-- Dark + Default mode profile stats -->
-	  <source
-	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true&custom_title=GitHub+Stats"
-	    media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)" />
-	  <!-- Light mode profile stats -->
-	  <source
-	    srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-light&hide_border=true&custom_title=GitHub+Stats"
-	    media="(prefers-color-scheme: light)" />
-	  <img height=225 align="center" alt="GitHub profile stats" src="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&hide_border=true&custom_title=GitHub+Stats" />
-	</picture><br>
-	<picture>
-	  <!-- Dark + Default mode GitHub streak -->
-	  <source
-	    srcset="https://github-readme-streak-stats.herokuapp.com?user=lynkos&theme=solarized-dark&hide_border=true"
-	    media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)" />
-	  <!-- Light mode GitHub streak -->
-	  <source
-	    srcset="https://github-readme-streak-stats.herokuapp.com?user=lynkos&theme=solarized-light&hide_border=true"
-	    media="(prefers-color-scheme: light)" />
-	  <img height=200 align="center" alt="GitHub streak stats" src="https://github-readme-streak-stats.herokuapp.com?user=lynkos&hide_border=true" />
-	</picture><br>
-	<picture>
-	  <!-- Dark + Default mode top languages -->
-	  <source
-	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true"
-	    media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)" />
-	  <!-- Light mode top languages -->
-	  <source
-	    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
-	    media="(prefers-color-scheme: light)" />
-	  <img height=300 align="center" alt="Widget listing my most used languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&hide_border=true" />
-	</picture>
+		<img align="center" alt="Profile views counter" src="https://komarev.com/ghpvc/?username=lynkos&color=4689CC&base=1413&style=flat"><br><br>
+		<picture>
+		  <!-- Dark mode profile stats -->
+		  <source srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true&custom_title=GitHub+Stats" media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)">
+		  <!-- Light + Default mode profile stats -->
+		  <source srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-light&hide_border=true&custom_title=GitHub+Stats" media="(prefers-color-scheme: light)">
+		  <img height=225 align="center" src="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&hide_border=true&custom_title=GitHub+Stats">
+		</picture>
+		<picture>
+		  <!-- Dark mode top languages -->
+		  <source
+		    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true" media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)">
+		  <!-- Light + Default mode top languages -->
+		  <source
+		    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-light&hide_border=true" media="(prefers-color-scheme: light)">
+		  <img height=300 align="center" alt="Widget listing my most used languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&hide_border=true">
+		</picture>
 	</div><br>
 	<p style="text-align: center;" align="center"><sup>Note: These stats do not include my contributions to private repositories or <a target="_blank" href="https://gist.github.com/lynkos">my Gists</a>.</sup></p>
 </details>
