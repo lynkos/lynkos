@@ -28,6 +28,7 @@
 ![](https://img.shields.io/static/v1?label=Code&message=MySQL&logo=mysql&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=jQuery&logo=jquery&color=39ae39&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Code&message=Swift&logo=swift&color=39ae39&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Code&message=F%23&logo=fsharp&color=39ae39&labelColor=393939&logoColor=white)
 
 <!-- Frameworks -->
 ![](https://img.shields.io/static/v1?label=Frameworks&message=Qiskit&logo=qiskit&color=c0713f&labelColor=393939&logoColor=white)
