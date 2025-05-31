@@ -72,6 +72,7 @@
 ![](https://img.shields.io/static/v1?label=Tools&message=PlatformIO&logo=platformio&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Slack&logo=slack&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=LLaMA&logo=meta&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=Wireshark&logo=wireshark&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=CMake&logo=cmake&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Make&logo=make&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=GitHub+Copilot&logo=github+copilot&color=ae3939&labelColor=393939&logoColor=white)
