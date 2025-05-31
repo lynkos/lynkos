@@ -85,6 +85,7 @@
 ![](https://img.shields.io/static/v1?label=Tools&message=Docker&logo=docker&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=LLVM&logo=llvm&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Claude&logo=claude&color=ae3939&labelColor=393939&logoColor=white)
+![](https://img.shields.io/static/v1?label=Tools&message=DeepSeek&logo=deepseek&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Google+Gemini&logo=googlegemini&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=GPT&logo=openai&color=ae3939&labelColor=393939&logoColor=white)
 ![](https://img.shields.io/static/v1?label=Tools&message=Oracle+Cloud&logo=oracle&color=ae3939&labelColor=393939&logoColor=white)
