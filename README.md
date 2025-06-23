@@ -202,7 +202,7 @@
 <details>
    <summary><h2>📊&nbsp; Statistics</h2></summary>
 	<div align="center">
-		<img align="center" alt="Profile views counter" src="https://komarev.com/ghpvc/?username=lynkos&color=4689CC&base=1413&style=flat"><br><br>
+		<img align="center" alt="Profile views counter" src="https://komarev.com/ghpvc/?username=lynkos&color=4689CC&base=1413&style=flat"><br>
 		<picture>
 		  <!-- Dark mode profile stats -->
 		  <source srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true&custom_title=GitHub+Stats" media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)">
