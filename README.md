@@ -206,11 +206,11 @@
 		<picture>
 		  <!-- Dark + Default mode profile counter -->
 		  <source srcset="https://komarev.com/ghpvc/?username=lynkos&color=2AA198&base=1413&style=flat"
-			  media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"/>
+			  media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)">
 		  <!-- Light mode profile counter -->
 		  <source srcset="https://komarev.com/ghpvc/?username=lynkos&color=D33682&base=1413&style=flat"
-			  media="(prefers-color-scheme: light)" />
-		  <img align="center" alt="Profile views counter" src="https://komarev.com/ghpvc/?username=lynkos&base=1413&style=flat" />
+			  media="(prefers-color-scheme: light)">
+		  <img align="center" alt="Profile views counter" src="https://komarev.com/ghpvc/?username=lynkos&base=1413&style=flat">
 		</picture>
 		<br><br>
 		<!-- Profile stats -->
@@ -219,9 +219,9 @@
 		  <source srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&custom_title=GitHub+Stats&show_icons=true&layout=donut&theme=solarized-dark&hide_border=true&show=prs_merged,prs_merged_percentage"
 			  media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)">
 		  <!-- Light mode profile stats -->
-		  <source srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&custom_title=GitHub+Stats&show_icons=true&layout=donut&theme=solarized-light&hide_border=true&show=prs_merged,prs_merged_percentage#gh-light-mode-only"
+		  <source srcset="https://github-readme-stats.vercel.app/api/?username=lynkos&custom_title=GitHub+Stats&show_icons=true&layout=donut&theme=solarized-light&hide_border=true&show=prs_merged,prs_merged_percentage"
 			  media="(prefers-color-scheme: light)">
-		  <img height=260 align="center" src="https://github-readme-stats.vercel.app/api/?username=lynkos&custom_title=GitHub+Stats&show_icons=true&layout=donut&hide_border=true&show=prs_merged,prs_merged_percentage">
+		  <img height=260 align="center" alt="Profile statistics card" src="https://github-readme-stats.vercel.app/api/?username=lynkos&custom_title=GitHub+Stats&show_icons=true&layout=donut&hide_border=true&show=prs_merged,prs_merged_percentage">
 		</picture>
 		<!-- Top languages -->
 		<picture>
@@ -231,7 +231,7 @@
 		  <!-- Light mode top languages -->
 		  <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&theme=solarized-light&hide_border=true"
 			  media="(prefers-color-scheme: light)">
-		  <img height=260 align="center" alt="Widget listing my most used languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&hide_border=true">
+		  <img height=260 align="center" alt="Widget listing most used languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=lynkos&langs_count=9&size_weight=0.5&count_weight=0.5&show_icons=true&layout=donut&hide_border=true">
 		</picture>
 	</div><br>
 	<p style="text-align: center;" align="center"><sup>Note: These stats do not include my contributions to private repositories or <a target="_blank" href="https://gist.github.com/lynkos">my Gists</a>.</sup></p>
