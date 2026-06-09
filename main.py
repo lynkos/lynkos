@@ -22,7 +22,7 @@ def bright_green(text: str | int) -> str:
 def bright_yellow(text: str | int) -> str:
     return f"\x1b[93m{text}\x1b[0m"
 
-def bright_magenta(text: str | int) -> str:
+def bright_magenta(text: str | int) -> str: # aka purple
     return f"\x1b[95m{text}\x1b[0m"
 
 def bright_cyan(text: str | int) -> str:
@@ -42,7 +42,7 @@ def login(t: Terminal):
     t.toggle_show_cursor(True)
     t.gen_typing_text("*********", 4, contin = True, speed = 1)
     t.toggle_show_cursor(False)
-    time_now = datetime.now(ZONE).strftime("%a %b %d %Y %I:%M:%S %p")
+    time_now = datetime.now(ZONE).strftime("%a %b %d %Y %H:%M:%S")
     t.gen_text(f"Last login: {time_now} on {tty}", 6)
 
 def fetch(t: Terminal):
