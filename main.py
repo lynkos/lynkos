@@ -4,6 +4,7 @@ from zoneinfo import ZoneInfo
 from random import randint
 
 USERNAME = "lynkos"
+EXPERIENCE = [ "Oracle Cloud (OCI)", "Analytics for Cyber Defense (ACyD) Lab" ]
 FOCUS = [ "Infrastructure", "Distributed Systems", "Backend", "Platform", "Cloud", "CI/CD" ]
 ZONE = ZoneInfo("America/New_York")
 WIDTH = 775
@@ -60,10 +61,10 @@ def get_gen_details():
 {bright_magenta(f"{USERNAME}@GitHub")}
 --------------
 {bright_cyan("Role")}:           {bright_yellow("Software Engineer")}
-{bright_cyan("Experience")}:     {bright_yellow("Oracle Cloud (OCI), Analytics for Cyber Defense (ACyD) Lab")}
-{bright_cyan("Focus")}:          {bright_cyan(' · ').join([bright_yellow(focus) for focus in FOCUS])}
+{bright_cyan("Experience")}:     {(' · ').join([bright_yellow(experience) for experience in EXPERIENCE])}
+{bright_cyan("Focus")}:          {(' · ').join([bright_yellow(focus) for focus in FOCUS])}
 {bright_cyan("University")}:     {bright_yellow("Florida International University (FIU)")}
-{bright_cyan("Degree")}:         {bright_yellow("Computer Science")}
+{bright_cyan("Degree")}:         {bright_yellow("Computer Science, B.S.")}
 
 {bright_magenta("GitHub Stats")}
 --------------
@@ -76,14 +77,14 @@ def get_gen_details():
 
 {bright_magenta("Top Languages")}
 --------------
-{bright_cyan(' · ').join(top_languages[:10])}
+{(' · ').join(top_languages[:10])}
     """
 
 def exit(t: Terminal):
     t.toggle_show_cursor(True)
     t.gen_prompt(t.curr_row)
     t.gen_typing_text(bright_green("# Aspiring multidisciplinary"), t.curr_row, contin = True, speed = 1)
-    t.gen_text("", t.curr_row, count = 360, contin = True)
+    t.gen_text("", t.curr_row, count = 400, contin = True)
 
 def info(t: Terminal):
     details = get_gen_details()
