@@ -13,10 +13,10 @@
 		<!-- Profile counter -->
 		<picture>
 		  <!-- Dark + Default mode profile counter -->
-		  <source srcset="https://komarev.com/ghpvc/?username=lynkos&color=2AA198&base=1413&style=flat"
+		  <source srcset="https://komarev.com/ghpvc/?username=lynkos&color=6c71c4&base=1413&style=flat"
 			  media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)">
 		  <!-- Light mode profile counter -->
-		  <source srcset="https://komarev.com/ghpvc/?username=lynkos&color=D33682&base=1413&style=flat"
+		  <source srcset="https://komarev.com/ghpvc/?username=lynkos&color=6c71c4&base=1413&style=flat"
 			  media="(prefers-color-scheme: light)">
 		  <img align="center" alt="Profile views counter" src="https://komarev.com/ghpvc/?username=lynkos&base=1413&style=flat">
 		</picture>
