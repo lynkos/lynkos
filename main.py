@@ -8,13 +8,21 @@ EXPERIENCE = [ "Oracle Cloud (OCI)", "Analytics for Cyber Defense (ACyD) Lab" ]
 FOCUS = [ "Infrastructure", "Distributed Systems", "Backend", "Platform", "Cloud", "CI/CD" ]
 ZONE = ZoneInfo("America/New_York")
 WIDTH = 775
-HEIGHT = 570
+HEIGHT = 600
 PADDING = 15
 FONT_SIZE = 15
+SPEED = 1
+USER_DETAILS = utils.fetch_github_stats(USERNAME, include_all_commits = True)
 # FONT_FAMILY = "~/Library/Fonts/FiraCode-Retina.ttf" # FiraCode-Regular.ttf
 
-def bright_red(text: str | int) -> str: # aka orange
-    return f"\x1b[91m{text}\x1b[0m"
+def red(text: str | int) -> str:
+    return f"\x1b[31m{text}\x1b[0m"
+
+def blue(text: str | int) -> str:
+    return f"\x1b[34m{text}\x1b[0m"
+
+def magenta(text: str | int) -> str:
+    return f"\x1b[35m{text}\x1b[0m"
 
 def bright_green(text: str | int) -> str:
     return f"\x1b[92m{text}\x1b[0m"
@@ -31,32 +39,37 @@ def bright_cyan(text: str | int) -> str:
 def login(t: Terminal):
     t.clear_frame()
     t.toggle_show_cursor(False)
-    tty = f"tty00{randint(0, 9)}"
-    t.gen_text(bright_yellow(f"LYNKOS v1.0.11 ({tty})"), 1, count = 5)
+    t.gen_text(bright_yellow(f"LYNKOS v1.0.11"), 1, count = 5)
     t.gen_text("login: ", 3, count = 5)
     t.toggle_show_cursor(True)
-    t.gen_typing_text(USERNAME, 3, contin = True, speed = 1)
+    t.gen_typing_text(USERNAME, 3, contin = True, speed = SPEED)
     t.gen_text("", 4, count = 5)
     t.toggle_show_cursor(False)
     t.gen_text("password: ", 4, count = 5)
     t.toggle_show_cursor(True)
-    t.gen_typing_text("*********", 4, contin = True, speed = 1)
+    t.gen_typing_text("*********", 4, contin = True, speed = SPEED)
     t.toggle_show_cursor(False)
     time_now = datetime.now(ZONE).strftime("%a %b %d %Y %H:%M:%S")
-    t.gen_text(f"Last login: {time_now} on {tty}", 6)
+    t.gen_text(f"Last login: {time_now} on {f"tty00{randint(0, 9)}"}", 6)
 
 def fetch(t: Terminal):
     t.gen_prompt(7, count = 5)
     prompt_col = t.curr_col
     t.toggle_show_cursor(True)
-    t.gen_typing_text(bright_red("fetch.s"), 7, contin = True, speed = 1)
+    t.gen_typing_text("fetch.s", 7, contin = True, speed = SPEED)
     t.delete_row(7, prompt_col)
-    t.gen_text(bright_green("fetch.sh"), 7, count = 3, contin = True)
-    t.gen_typing_text(f" -u {USERNAME}", 7, contin = True)
+    t.gen_text(blue("fetch.sh"), 7, count = 3, contin = True)
+
+    prompt_col = t.curr_col
+    t.gen_typing_text(" -", t.curr_row, contin = True, speed = SPEED)
+    t.delete_row(t.curr_row, prompt_col)
+    t.gen_text(red(" -u"), t.curr_row, count = 3, contin = True)
+
+    t.gen_typing_text(f" {magenta(USERNAME)}", 7, speed = SPEED, contin = True)
 
 def get_gen_details():
-    git_user_details = utils.fetch_github_stats(USERNAME, include_all_commits = True)
-    top_languages = [bright_yellow("Jupyter") if lang[0] == "Jupyter Notebook" else bright_yellow(lang[0]) for lang in git_user_details.languages_sorted]
+    top_languages = list_languages()
+
     return f"""
 {bright_magenta(f"{USERNAME}@GitHub")}
 --------------
@@ -68,28 +81,40 @@ def get_gen_details():
 
 {bright_magenta("GitHub Stats")}
 --------------
-{bright_cyan("User Rating")}:    {bright_yellow(git_user_details.user_rank.level)}
-{bright_cyan("Followers")}:      {bright_yellow(git_user_details.total_followers)}
-{bright_cyan("Total Stars")}:    {bright_yellow(git_user_details.total_stargazers)}
-{bright_cyan("Commits")}:        {bright_yellow(git_user_details.total_commits_all_time)}
-{bright_cyan("Pull Requests")}:  {bright_yellow(git_user_details.total_pull_requests_made)}
-{bright_cyan("Contributions")}:  {bright_yellow(git_user_details.total_repo_contributions)}
+{bright_cyan("User Rating")}:    {bright_yellow(USER_DETAILS.user_rank.level)}
+{bright_cyan("Followers")}:      {bright_yellow(USER_DETAILS.total_followers)}
+{bright_cyan("Total Stars")}:    {bright_yellow(USER_DETAILS.total_stargazers)}
+{bright_cyan("Commits")}:        {bright_yellow(USER_DETAILS.total_commits_all_time)}
+{bright_cyan("Pull Requests")}:  {bright_yellow(USER_DETAILS.total_pull_requests_made)}
+{bright_cyan("Contributions")}:  {bright_yellow(USER_DETAILS.total_repo_contributions)}
 
 {bright_magenta("Top Languages")}
 --------------
-{(' · ').join(top_languages[:10])}
+{(' · ').join(top_languages[:5])}
+{(' · ').join(top_languages[5:10])}
     """
 
+def list_languages():
+    languages = [ ]
+    
+    for language, percent in USER_DETAILS.languages_sorted:
+        if language == "Jupyter Notebook": language = "Jupyter"
+
+        lang = f"{bright_cyan(language)} ({bright_yellow(f'{percent}%')})"
+        languages.append(lang)
+
+    return languages
+
 def exit(t: Terminal):
-    t.toggle_show_cursor(True)
     t.gen_prompt(t.curr_row)
-    t.gen_typing_text(bright_green("# Aspiring multidisciplinary"), t.curr_row, contin = True, speed = 1)
+    t.toggle_show_cursor(True)
+    t.gen_typing_text(bright_green("# Aspiring multidisciplinary"), t.curr_row, contin = True, speed = SPEED)
     t.gen_text("", t.curr_row, count = 400, contin = True)
 
 def info(t: Terminal):
     details = get_gen_details()
     t.toggle_show_cursor(True)
-    t.gen_text(details, 8, 1, count = 5, contin = True)
+    t.gen_text(details, 8, 1, contin = True)
 
 def main():
     t = Terminal(width = WIDTH,
