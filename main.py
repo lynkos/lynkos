@@ -87,7 +87,7 @@ def get_gen_details():
 {bright_cyan("User Rating")}:    {bright_yellow(USER_DETAILS.user_rank.level)}
 {bright_cyan("Followers")}:      {bright_yellow(USER_DETAILS.total_followers)}
 {bright_cyan("Total Stars")}:    {bright_yellow(USER_DETAILS.total_stargazers)}
-{bright_cyan("Commits")}:        {bright_yellow(USER_DETAILS.total_commits_all_time)}
+{bright_cyan("Total Commits")}:  {bright_yellow(USER_DETAILS.total_commits_all_time)}
 {bright_cyan("Pull Requests")}:  {bright_yellow(USER_DETAILS.total_pull_requests_made)}
 {bright_cyan("Contributions")}:  {bright_yellow(USER_DETAILS.total_repo_contributions)}
 
