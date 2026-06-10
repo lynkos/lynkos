@@ -7,11 +7,12 @@ USERNAME = "lynkos"
 EXPERIENCE = [ "Oracle Cloud (OCI)", "Analytics for Cyber Defense (ACyD) Lab" ]
 FOCUS = [ "Infrastructure", "Distributed Systems", "Backend", "Platform", "Cloud", "CI/CD" ]
 ZONE = ZoneInfo("America/New_York")
-WIDTH = 775
-HEIGHT = 600
+WIDTH = 750
+HEIGHT = 500
 PADDING = 15
 FONT_SIZE = 15
 SPEED = 1
+COUNT = 5
 USER_DETAILS = utils.fetch_github_stats(USERNAME, include_all_commits = True)
 # FONT_FAMILY = "~/Library/Fonts/FiraCode-Retina.ttf" # FiraCode-Regular.ttf
 
@@ -39,33 +40,35 @@ def bright_cyan(text: str | int) -> str:
 def login(t: Terminal):
     t.clear_frame()
     t.toggle_show_cursor(False)
-    t.gen_text(bright_yellow(f"LYNKOS v1.0.11"), 1, count = 5)
-    t.gen_text("login: ", 3, count = 5)
+    t.gen_text(bright_yellow(f"LYNKOS v1.0.11"), 1, count = COUNT)
+    t.gen_text("login: ", 3, count = COUNT)
     t.toggle_show_cursor(True)
     t.gen_typing_text(USERNAME, 3, contin = True, speed = SPEED)
-    t.gen_text("", 4, count = 5)
+    t.gen_text("", 4, count = COUNT)
     t.toggle_show_cursor(False)
-    t.gen_text("password: ", 4, count = 5)
+    t.gen_text("password: ", 4, count = COUNT)
     t.toggle_show_cursor(True)
     t.gen_typing_text("*********", 4, contin = True, speed = SPEED)
     t.toggle_show_cursor(False)
+    t.clear_frame()
     time_now = datetime.now(ZONE).strftime("%a %b %d %Y %H:%M:%S")
-    t.gen_text(f"Last login: {time_now} on {f"tty00{randint(0, 9)}"}", 6)
+    t.gen_text(f"Last login: {time_now} on {f"tty00{randint(0, 9)}"}", 1, count = 3)
 
 def fetch(t: Terminal):
-    t.gen_prompt(7, count = 5)
+    row = 2
+    t.gen_prompt(row, count = COUNT)
     prompt_col = t.curr_col
     t.toggle_show_cursor(True)
-    t.gen_typing_text("fetch.s", 7, contin = True, speed = SPEED)
-    t.delete_row(7, prompt_col)
-    t.gen_text(blue("fetch.sh"), 7, count = 3, contin = True)
+    t.gen_typing_text("fetch.s", row, contin = True, speed = SPEED)
+    t.delete_row(row, prompt_col)
+    t.gen_text(blue("fetch.sh"), row, count = 3, contin = True)
 
     prompt_col = t.curr_col
     t.gen_typing_text(" -", t.curr_row, contin = True, speed = SPEED)
     t.delete_row(t.curr_row, prompt_col)
     t.gen_text(red(" -u"), t.curr_row, count = 3, contin = True)
 
-    t.gen_typing_text(f" {magenta(USERNAME)}", 7, speed = SPEED, contin = True)
+    t.gen_typing_text(f" {magenta(USERNAME)}", row, speed = SPEED, contin = True)
 
 def get_gen_details():
     top_languages = list_languages()
@@ -106,15 +109,14 @@ def list_languages():
     return languages
 
 def exit(t: Terminal):
-    t.gen_prompt(t.curr_row)
+    t.gen_prompt(t.curr_row, count = COUNT)
     t.toggle_show_cursor(True)
     t.gen_typing_text(bright_green("# Aspiring multidisciplinary"), t.curr_row, contin = True, speed = SPEED)
     t.gen_text("", t.curr_row, count = 400, contin = True)
 
 def info(t: Terminal):
-    details = get_gen_details()
     t.toggle_show_cursor(True)
-    t.gen_text(details, 8, 1, contin = True)
+    t.gen_text(get_gen_details(), 3, 1, contin = True)
 
 def main():
     t = Terminal(width = WIDTH,
