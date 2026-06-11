@@ -1,4 +1,5 @@
-from gifos import Terminal, utils
+from gifos import Terminal
+from gifos.utils import fetch_github_stats
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from random import randint
@@ -39,7 +40,7 @@ COUNT = 5
 ROW = 1
 """Tracks current row in the terminal for text generation"""
 
-USER_DETAILS = utils.fetch_github_stats(USERNAME, include_all_commits = True)
+USER_DETAILS = fetch_github_stats(USERNAME, include_all_commits = True)
 """User details fetched from GitHub, including stats like followers, stars, commits, languages, etc."""
 
 # FONT_FAMILY = "~/Library/Fonts/FiraCode-Retina.ttf" # FiraCode-Regular.ttf
