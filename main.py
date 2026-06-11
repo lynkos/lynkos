@@ -22,7 +22,7 @@ INFO_DISPLAY_TIME = 400
 WIDTH = 750
 """Terminal width"""
 
-HEIGHT = 500
+HEIGHT = 490
 """Terminal height"""
 
 PADDING = 15
@@ -191,7 +191,7 @@ def fetch(t: Terminal):
     """
     global ROW
     
-    ROW = 2
+    ROW = 1
     
     t.gen_prompt(ROW, count = COUNT)
     prompt_col = t.curr_col
