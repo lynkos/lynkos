@@ -13,6 +13,7 @@ PADDING = 15
 FONT_SIZE = 15
 SPEED = 1
 COUNT = 5
+ROW = 1
 USER_DETAILS = utils.fetch_github_stats(USERNAME, include_all_commits = True)
 # FONT_FAMILY = "~/Library/Fonts/FiraCode-Retina.ttf" # FiraCode-Regular.ttf
 
@@ -38,21 +39,42 @@ def bright_cyan(text: str | int) -> str:
     return f"\x1b[96m{text}\x1b[0m"
 
 def login(t: Terminal):
+    global ROW
+
     t.clear_frame()
     t.toggle_show_cursor(False)
-    t.gen_text(bright_yellow(f"LYNKOS v1.0.11"), 1, count = COUNT)
-    t.gen_text("login: ", 3, count = COUNT)
+    t.gen_text(bright_yellow(f"LYNKOS v1.0.11"), ROW, count = COUNT)
+
+    ROW += 2
+    
+    t.gen_text("login: ", ROW, count = COUNT)
     t.toggle_show_cursor(True)
-    t.gen_typing_text(USERNAME, 3, contin = True, speed = SPEED)
-    t.gen_text("", 4, count = COUNT)
+    t.gen_typing_text(USERNAME, ROW, contin = True, speed = SPEED)
+
+    ROW += 1
+    
+    t.gen_text("", ROW, count = COUNT)
     t.toggle_show_cursor(False)
-    t.gen_text("password: ", 4, count = COUNT)
+    t.gen_text("password: ", ROW, count = COUNT)
     t.toggle_show_cursor(True)
-    t.gen_typing_text("*********", 4, contin = True, speed = SPEED)
+    t.gen_typing_text("*********", ROW, contin = True, speed = SPEED)
     t.toggle_show_cursor(False)
-    t.clear_frame()
+
+    ROW += 2
+
     time_now = datetime.now(ZONE).strftime("%a %b %d %Y %H:%M:%S")
-    t.gen_text(f"Last login: {time_now} on {f"tty00{randint(0, 9)}"}", 1, count = 3)
+    t.gen_text(f"Last login: {time_now} on {f"tty00{randint(0, 9)}"}", ROW, count = 3)
+
+    ROW += 1
+
+def clear(t: Terminal):
+    t.gen_prompt(ROW, count = COUNT)
+    prompt_col = t.curr_col
+    t.toggle_show_cursor(True)
+    t.gen_typing_text("clea", ROW, speed = SPEED, contin = True)
+    t.delete_row(ROW, prompt_col)
+    t.gen_text(blue("clear"), ROW, count = COUNT, contin = True)
+    t.clear_frame()
 
 def fetch(t: Terminal):
     row = 2
@@ -127,6 +149,7 @@ def main():
                  #font_file = FONT_FAMILY)
 
     login(t)
+    clear(t)
     fetch(t)
     info(t)
     exit(t)
