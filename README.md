@@ -32,7 +32,7 @@
 		  <img align="center" alt="Profile statistics card" src="output.gif">
 		</picture>
 	</div><br>
-	<p style="text-align: center;" align="center"><sup>Note: These stats do not include my contributions to private repositories or <a target="_blank" href="https://gist.github.com/lynkos">my Gists</a>.</sup></p>
+	<p style="text-align: center;" align="center"><sup>Note: These stats do not include <a target="_blank" href="https://gist.github.com/lynkos">my Gists</a>.</sup></p>
 </details>
 
 <!-- Skills -->
