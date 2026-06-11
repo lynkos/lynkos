@@ -2,11 +2,11 @@ name: Update Stats gif
 
 on:
   workflow_dispatch: # allows manual execution of workflow
-  schedule:
-    - cron: '0 0 * * *' # runs every day at midnight
-  push:
-    branches: main
-    paths: main.py
+  # schedule:
+  #   - cron: '0 0 * * *' # runs every day at midnight
+  # push:
+  #   branches: main
+  #   paths: main.py
 
 permissions:
   contents: write
@@ -26,10 +26,8 @@ jobs:
           source .venv/bin/activate
           python -m pip install --upgrade pip
           pip install github-readme-terminal
-          pip show github-readme-terminal
           echo "$GITHUB_WORKSPACE/.venv/bin" >> $GITHUB_PATH
           echo "VIRTUAL_ENV=$GITHUB_WORKSPACE/.venv" >> $GITHUB_ENV
-          echo PATH=$PATH >> $GITHUB_ENV
 
       - name: Patch gifos to display Top 15 Languages
         run: |
@@ -41,31 +39,22 @@ jobs:
             from gifos.utils import fetch_github_stats as mod
             p = Path(getfile(mod))
           except Exception:
-            # fallback: try to locate by name in site-packages
             from sys import path as sys_path
             sp = [p for p in sys_path if 'site-packages' in p or 'dist-packages' in p]
             p = None
             for base in sp:
               candidate = Path(base) / 'gifos' / 'utils' / 'fetch_github_stats.py'
-              
               if candidate.exists():
                 p = candidate
                 break
-
-              if p is None:
-                raise SystemExit('fetch_github_stats.py not found')
+              if p is None: raise SystemExit('fetch_github_stats.py not found')
 
           text = p.read_text()
-
-          # Modify the function to return top 15 languages instead of 5
-          new_text = sub(r"languages_sorted\s*=\s*languages_sorted\[[^\]]*\]\s*,?", "languages_sorted=languages_sorted[:15],  # top 15 languages", text, count=1)
-          
+          new_text = sub(r"languages_sorted\s*=\s*languages_sorted\[[^\]]*\]\s*,?", "languages_sorted=languages_sorted[:15],", text, count = 1)
           if new_text != text:
             p.write_text(new_text)
             print(f"Patched {p}")
-          
-          else:
-            print("No changes made")
+          else: print("No changes made")
           PY
       
       - name: Add Solarized theme
