@@ -22,7 +22,7 @@ INFO_DISPLAY_TIME = 400
 WIDTH = 750
 """Terminal width"""
 
-HEIGHT = 490
+HEIGHT = 480
 """Terminal height"""
 
 PADDING = 15
