@@ -1,0 +1,88 @@
+name: Update Stats gif
+
+on:
+  workflow_dispatch: # allows manual execution of workflow
+  schedule:
+    - cron: '0 0 * * *' # runs every day at midnight
+  push:
+    branches: main
+    paths: main.py
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Install dependencies
+        run: |
+          sudo apt update && sudo apt install -y ffmpeg
+          python -m pip install --upgrade pip
+          pip install git+https://github.com/x0rzavi/github-readme-terminal.git@main
+
+      - name: Add Solarized theme
+        run: |
+          mkdir -p ~/.config/gifos
+          cat > ~/.config/gifos/ansi_escape_colors.toml <<'EOF'
+          [solarized]
+                  [solarized.default_colors]
+                  fg = "#839496"
+                  bg = "#002b36"
+
+                  [solarized.normal_colors]
+                  black = "#073642"
+                  red = "#dc322f"
+                  green = "#859900"
+                  yellow = "#b58900"
+                  blue = "#268bd2"
+                  magenta = "#d33682"
+                  cyan = "#2aa198"
+                  white = "#eee8d5"
+
+                  [solarized.bright_colors]
+                  black = "#002b36"
+                  red = "#cb4b16"
+                  green = "#859900"
+                  yellow = "#b58900"
+                  blue = "#268bd2"
+                  magenta = "#6c71c4"
+                  cyan = "#2aa198"
+                  white = "#fdf6e3"
+          EOF
+
+      - name: Add gifos settings
+        run: |
+          mkdir -p ~/.config/gifos
+          cat > ~/.config/gifos/gifos_settings.toml <<'EOF'
+          [general]
+          debug = false
+          cursor = "_"
+          show_cursor = true
+          blink_cursor = true
+          user_name = "lynkos"
+          fps = 15
+          color_scheme = "solarized"
+          loop_count = 0
+
+          [files]
+          frame_base_name = "frame_"
+          frame_folder_name = "frames"
+          output_gif_name = "output_test"
+          EOF
+
+      - name: Generate GIF
+        run: python main.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
+
+      - name: Upload GIF
+        run: |
+          git add output_test.gif
+          git -c "user.name=bot" -c "user.email=bot@github.com" commit -m "Automatically updated terminal gif on $(date)"
+          git push
