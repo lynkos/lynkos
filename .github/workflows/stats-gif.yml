@@ -121,5 +121,5 @@ jobs:
           git add "${GIF_NAME}.gif"
           git -c "user.name=github-actions[bot]" \
               -c "user.email=github-actions[bot]@users.noreply.github.com" \
-              commit -m "Automatically updated stats gif (`${GIF_NAME}.gif`) on $(date)"
+              commit -m "Automatically updated stats gif (\`${GIF_NAME}.gif\`) on $(date)"
           git push
