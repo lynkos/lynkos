@@ -9,7 +9,7 @@ on:
     paths: main.py
 
 env:
-  GIF_NAME: output_test
+  GIF_NAME: output
 
 defaults:
   run:
