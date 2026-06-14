@@ -9,7 +9,7 @@ on:
     paths: main.py
 
 env:
-  GIF_NAME: output
+  GIF_NAME: output_test
 
 defaults:
   run:
@@ -41,27 +41,14 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          from inspect import getfile
           from re import sub
-          try:
-            from gifos.utils import fetch_github_stats as mod
-            p = Path(getfile(mod))
-          except Exception:
-            from sys import path as sys_path
-            sp = [p for p in sys_path if 'site-packages' in p or 'dist-packages' in p]
-            p = None
-            for base in sp:
-              candidate = Path(base) / 'gifos' / 'utils' / 'fetch_github_stats.py'
-              if candidate.exists():
-                p = candidate
-                break
-              if p is None: raise SystemExit('fetch_github_stats.py not found')
+          from gifos.utils import fetch_github_stats as mod
 
+          p = Path(mod.__file__).resolve()
           text = p.read_text()
           new_text = sub(r"languages_sorted\s*=\s*languages_sorted\[[^\]]*\]\s*,?", "languages_sorted=languages_sorted[:15],", text, count = 1)
-          if new_text != text:
-            p.write_text(new_text)
-            print(f"Patched {p}")
+          
+          if new_text != text: p.write_text(new_text)
           else: print("No changes made")
           PY
       
