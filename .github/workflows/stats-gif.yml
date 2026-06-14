@@ -1,12 +1,19 @@
 name: Update Stats GIF
 
 on:
-  workflow_dispatch: # allows manual execution of workflow
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # runs every day at midnight
   push:
     branches: main
     paths: main.py
+
+env:
+  GIF_NAME: output_test
+
+defaults:
+  run:
+    shell: bash
 
 permissions:
   contents: write
@@ -15,19 +22,38 @@ jobs:
   update-stats-gif:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           lfs: true
 
-      - name: Install dependencies
+      - name: Install FFMPEG
         run: |
           sudo apt update && sudo apt install -y ffmpeg
-          python -m venv .venv
-          source .venv/bin/activate
-          python -m pip install --upgrade pip
-          pip install github-readme-terminal
-          echo "$GITHUB_WORKSPACE/.venv/bin" >> $GITHUB_PATH
-          echo "VIRTUAL_ENV=$GITHUB_WORKSPACE/.venv" >> $GITHUB_ENV
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+          cache: "pip"
+          cache-dependency-path: "~/.cache/pip"
+          pip-install: --upgrade github-readme-terminal
+
+      # - name: Cache pip packages
+      #   uses: actions/cache@v4
+      #   with:
+      #     path: ~/.cache/pip
+      #     key: ${{ runner.os }}-pip-${{ github.workflow }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-pip-
+
+      # - name: Install pip
+      #   run: |
+      #     python -m venv .venv
+      #     source .venv/bin/activate
+      #     python -m pip install --upgrade github-readme-terminal
+      #     echo "$GITHUB_WORKSPACE/.venv/bin" >> $GITHUB_PATH
+      #     echo "VIRTUAL_ENV=$GITHUB_WORKSPACE/.venv" >> $GITHUB_ENV
 
       - name: Patch gifos to display Top 15 Languages
         run: |
@@ -104,7 +130,7 @@ jobs:
           [files]
           frame_base_name = "frame_"
           frame_folder_name = "frames"
-          output_gif_name = "output"
+          output_gif_name = "${GIF_NAME}"
           EOF
 
       - name: Generate GIF
@@ -115,6 +141,6 @@ jobs:
 
       - name: Upload GIF
         run: |
-          git add output.gif
+          git add "${GIF_NAME}.gif"
           git -c "user.name=github-actions[bot]" -c "user.email=github-actions[bot]@users.noreply.github.com" commit -m "Automatically updated terminal gif on $(date)"
           git push
