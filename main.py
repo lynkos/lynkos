@@ -55,6 +55,30 @@ def red(text: str | int) -> str:
     """
     return f"\x1b[31m{text}\x1b[0m"
 
+def green(text: str | int) -> str:
+    """
+    Formats text in green using ANSI escape codes
+
+    Args:
+        text (str | int): Text to format
+
+    Returns:
+        str: Green input text formatted with ANSI escape code
+    """
+    return f"\x1b[32m{text}\x1b[0m"
+
+def yellow(text: str | int) -> str:
+    """
+    Formats text in yellow using ANSI escape codes
+
+    Args:
+        text (str | int): Text to format
+
+    Returns:
+        str: Yellow input text formatted with ANSI escape code
+    """
+    return f"\x1b[33m{text}\x1b[0m"
+
 def blue(text: str | int) -> str:
     """
     Formats text in blue using ANSI escape codes
@@ -79,29 +103,41 @@ def magenta(text: str | int) -> str:
     """
     return f"\x1b[35m{text}\x1b[0m"
 
-def bright_green(text: str | int) -> str:
+def cyan(text: str | int) -> str:
     """
-    Formats text in bright green using ANSI escape codes
+    Formats text in cyan using ANSI escape codes
 
     Args:
         text (str | int): Text to format
 
     Returns:
-        str: Bright green input text formatted with ANSI escape code
+        str: Cyan input text formatted with ANSI escape code
     """
-    return f"\x1b[92m{text}\x1b[0m"
+    return f"\x1b[36m{text}\x1b[0m"
 
-def bright_yellow(text: str | int) -> str:
+def white(text: str | int) -> str:
     """
-    Formats text in bright yellow using ANSI escape codes
+    Formats text in white using ANSI escape codes
 
     Args:
         text (str | int): Text to format
 
     Returns:
-        str: Bright yellow input text formatted with ANSI escape code
+        str: White input text formatted with ANSI escape code
     """
-    return f"\x1b[93m{text}\x1b[0m"
+    return f"\x1b[37m{text}\x1b[0m"
+
+def bright_red(text: str | int) -> str:
+    """
+    Formats text in bright red (aka orange) using ANSI escape codes
+
+    Args:
+        text (str | int): Text to format
+
+    Returns:
+        str: Bright red (aka orange) input text formatted with ANSI escape code
+    """
+    return f"\x1b[91m{text}\x1b[0m"
 
 def bright_magenta(text: str | int) -> str:
     """
@@ -114,18 +150,6 @@ def bright_magenta(text: str | int) -> str:
         str: Bright magenta (aka purple) input text formatted with ANSI escape code
     """
     return f"\x1b[95m{text}\x1b[0m"
-
-def bright_cyan(text: str | int) -> str:
-    """
-    Formats text in bright cyan using ANSI escape codes
-
-    Args:
-        text (str | int): Text to format
-
-    Returns:
-        str: Bright cyan input text formatted with ANSI escape code
-    """
-    return f"\x1b[96m{text}\x1b[0m"
 
 def format_list(items: list[str]) -> str:
     """
@@ -151,7 +175,7 @@ def list_languages() -> list[str]:
     for language, percent in USER_DETAILS.languages_sorted:
         if language == "Jupyter Notebook": language = "Jupyter"
 
-        lang = f"{bright_cyan(language)} ({bright_yellow(f'{percent}%')})"
+        lang = f"{bright_magenta(language)} ({yellow(f'{percent}%')})"
         languages.append(lang)
 
     return languages
@@ -180,24 +204,24 @@ def profile_details() -> str:
     top_languages = list_languages()
 
     return f"""
-{bright_magenta(f"User Profile")}
+{magenta(f"User Profile")}
 --------------
-{bright_cyan("Role")}:           {bright_yellow("Software Engineer")}
-{bright_cyan("Experience")}:     {format_list([bright_yellow(experience) for experience in EXPERIENCE])}
-{bright_cyan("Focus")}:          {format_list([bright_yellow(focus) for focus in FOCUS])}
-{bright_cyan("University")}:     {bright_yellow("Florida International University (FIU)")}
-{bright_cyan("Degree")}:         {bright_yellow("Computer Science, B.S.")}
+{bright_magenta("Role")}:           {yellow("Software Engineer")}
+{bright_magenta("Experience")}:     {format_list([yellow(experience) for experience in EXPERIENCE])}
+{bright_magenta("Focus")}:          {format_list([yellow(focus) for focus in FOCUS])}
+{bright_magenta("University")}:     {yellow("Florida International University (FIU)")}
+{bright_magenta("Degree")}:         {yellow("Computer Science, B.S.")}
 
-{bright_magenta("GitHub Stats")}
+{magenta("GitHub Stats")}
 --------------
-{bright_cyan("User Rating")}:    {bright_yellow(USER_DETAILS.user_rank.level)}
-{bright_cyan("Followers")}:      {bright_yellow(USER_DETAILS.total_followers)}
-{bright_cyan("Total Stars")}:    {bright_yellow(USER_DETAILS.total_stargazers)}
-{bright_cyan("Total Commits")}:  {bright_yellow(USER_DETAILS.total_commits_all_time)}
-{bright_cyan("Pull Requests")}:  {bright_yellow(USER_DETAILS.total_pull_requests_made)}
-{bright_cyan("Contributions")}:  {bright_yellow(USER_DETAILS.total_repo_contributions)}
+{bright_magenta("User Rating")}:    {yellow(USER_DETAILS.user_rank.level)}
+{bright_magenta("Followers")}:      {yellow(USER_DETAILS.total_followers)}
+{bright_magenta("Total Stars")}:    {yellow(USER_DETAILS.total_stargazers)}
+{bright_magenta("Total Commits")}:  {yellow(USER_DETAILS.total_commits_all_time)}
+{bright_magenta("Pull Requests")}:  {yellow(USER_DETAILS.total_pull_requests_made)}
+{bright_magenta("Contributions")}:  {yellow(USER_DETAILS.total_repo_contributions)}
 
-{bright_magenta("Top Languages")}
+{magenta("Top Languages")}
 --------------
 {format_list(top_languages[:5])}
 {format_list(top_languages[5:10])}
@@ -218,7 +242,7 @@ def login(t: Terminal):
     row = 1
 
     t.toggle_show_cursor(False)
-    t.gen_text(bright_green(f"LYNKOS v2.0.2"), row, count = COUNT)
+    t.gen_text(bright_red(f"LYNKOS v2.0.2"), row, count = COUNT)
 
     row += 2
     
@@ -251,6 +275,7 @@ def clear(t: Terminal):
     """
     global row
     
+    t.set_prompt(f"{cyan('lynkos')}@{green('localhost:')}{red('~')}$ ")
     t.gen_prompt(row, count = COUNT)
     prompt_col = t.curr_col
     t.toggle_show_cursor(True)
@@ -281,9 +306,9 @@ def fetch(t: Terminal):
     prompt_col = t.curr_col
     t.gen_typing_text(" -", t.curr_row, contin = True, speed = SPEED)
     t.delete_row(t.curr_row, prompt_col)
-    t.gen_text(red(" -u"), t.curr_row, count = 3, contin = True)
+    t.gen_text(bright_red(" -u"), t.curr_row, count = 3, contin = True)
 
-    t.gen_typing_text(f" {magenta(USERNAME)}", row, speed = SPEED, contin = True)
+    t.gen_typing_text(f" {cyan(USERNAME)}", row, speed = SPEED, contin = True)
 
     row += 1
 
@@ -306,7 +331,7 @@ def final(t: Terminal):
     """
     t.gen_prompt(t.curr_row, count = COUNT)
     t.toggle_show_cursor(True)
-    t.gen_typing_text(bright_green("# Aspiring multidisciplinary"), t.curr_row, contin = True, speed = SPEED)
+    t.gen_typing_text(bright_red("# Aspiring multidisciplinary"), t.curr_row, contin = True, speed = SPEED)
     t.gen_text("", t.curr_row, count = INFO_DISPLAY_TIME, contin = True)
 
 def main():
