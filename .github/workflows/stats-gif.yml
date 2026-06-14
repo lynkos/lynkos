@@ -42,9 +42,10 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from re import sub
+          from inspect import getfile
           from gifos.utils import fetch_github_stats as mod
 
-          p = Path(mod.__file__).resolve()
+          p = Path(getfile(mod))
           text = p.read_text()
           new_text = sub(r"languages_sorted\s*=\s*languages_sorted\[[^\]]*\]\s*,?", "languages_sorted=languages_sorted[:15],", text, count = 1)
           
