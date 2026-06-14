@@ -1,12 +1,12 @@
-name: Update Stats gif
+name: Update Stats GIF
 
 on:
   workflow_dispatch: # allows manual execution of workflow
-  # schedule:
-  #   - cron: '0 0 * * *' # runs every day at midnight
-  # push:
-  #   branches: main
-  #   paths: main.py
+  schedule:
+    - cron: '0 0 * * *' # runs every day at midnight
+  push:
+    branches: main
+    paths: main.py
 
 permissions:
   contents: write
@@ -104,7 +104,7 @@ jobs:
           [files]
           frame_base_name = "frame_"
           frame_folder_name = "frames"
-          output_gif_name = "output_test"
+          output_gif_name = "output"
           EOF
 
       - name: Generate GIF
@@ -115,6 +115,6 @@ jobs:
 
       - name: Upload GIF
         run: |
-          git add output_test.gif
+          git add output.gif
           git -c "user.name=github-actions[bot]" -c "user.email=github-actions[bot]@users.noreply.github.com" commit -m "Automatically updated terminal gif on $(date)"
           git push
