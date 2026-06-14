@@ -27,32 +27,16 @@ jobs:
         with:
           lfs: true
 
-      - name: Install FFMPEG
+      - name: Install dependencies
         run: |
           sudo apt update && sudo apt install -y ffmpeg
-
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.14"
-          pip-install: --upgrade github-readme-terminal
-
-      # - name: Cache pip packages
-      #   uses: actions/cache@v4
-      #   with:
-      #     path: ~/.cache/pip
-      #     key: ${{ runner.os }}-pip-${{ github.workflow }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-pip-
-
-      # - name: Install pip
-      #   run: |
-      #     python -m venv .venv
-      #     source .venv/bin/activate
-      #     python -m pip install --upgrade github-readme-terminal
-      #     echo "$GITHUB_WORKSPACE/.venv/bin" >> $GITHUB_PATH
-      #     echo "VIRTUAL_ENV=$GITHUB_WORKSPACE/.venv" >> $GITHUB_ENV
-
+          python -m venv .venv
+          source .venv/bin/activate
+          python -m pip install --upgrade pip
+          pip install github-readme-terminal
+          echo "$GITHUB_WORKSPACE/.venv/bin" >> $GITHUB_PATH
+          echo "VIRTUAL_ENV=$GITHUB_WORKSPACE/.venv" >> $GITHUB_ENV
+          
       - name: Patch gifos to display Top 15 Languages
         run: |
           python - <<'PY'
