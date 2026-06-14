@@ -110,11 +110,11 @@ jobs:
       - name: Generate GIF
         run: python main.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           # IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
 
       - name: Upload GIF
         run: |
           git add output_test.gif
-          git -c "user.name=bot" -c "user.email=bot@github.com" commit -m "Automatically updated terminal gif on $(date)"
+          git -c "user.name=github-actions[bot]" -c "user.email=github-actions[bot]@users.noreply.github.com" commit -m "Automatically updated terminal gif on $(date)"
           git push
