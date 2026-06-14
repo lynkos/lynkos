@@ -17,7 +17,7 @@ ZONE = ZoneInfo("America/New_York")
 """Timezone"""
 
 INFO_DISPLAY_TIME = 400
-"""How long the info section is displayed in the terminal animation"""
+"""How long the info section is displayed"""
 
 WIDTH = 750
 """Terminal width"""
@@ -36,9 +36,6 @@ SPEED = 1
 
 COUNT = 5
 """Number of times to generate text"""
-
-ROW = 1
-"""Tracks current row in the terminal for text generation"""
 
 USER_DETAILS = fetch_github_stats(USERNAME, include_all_commits = True)
 """User details fetched from GitHub, including stats like followers, stars, commits, languages, etc."""
@@ -130,91 +127,55 @@ def bright_cyan(text: str | int) -> str:
     """
     return f"\x1b[96m{text}\x1b[0m"
 
-def login(t: Terminal):
+def format_list(items: list[str]) -> str:
     """
-    Simulates a login sequence with a username and password prompt,
-    followed by a last login message with a random tty
+    Formats list of strings as string delimited by " · "
 
     Args:
-        t (Terminal): Terminal instance
-    """
-    global ROW
-
-    t.clear_frame()
-    t.toggle_show_cursor(False)
-    t.gen_text(bright_green(f"LYNKOS v2.0.1"), ROW, count = COUNT)
-
-    ROW += 2
-    
-    t.gen_text("Login: ", ROW, count = COUNT)
-    t.toggle_show_cursor(True)
-    t.gen_typing_text(USERNAME, ROW, contin = True, speed = SPEED)
-
-    ROW += 1
-    
-    t.gen_text("", ROW, count = COUNT)
-    t.toggle_show_cursor(False)
-    t.gen_text("Password: ", ROW, count = COUNT)
-    t.toggle_show_cursor(True)
-    t.gen_typing_text("*******", ROW, contin = True, speed = SPEED)
-    t.toggle_show_cursor(False)
-
-    ROW += 2
-
-    time_now = datetime.now(ZONE).strftime("%a %b %d %Y %H:%M:%S")
-    t.gen_text(f"Last login: {time_now} on {f"tty00{randint(0, 9)}"}", ROW, count = 3)
-
-    ROW += 1
-
-def clear(t: Terminal):
-    """
-    Simulates clearing the terminal screen with `clear` command
-
-    Args:
-        t (Terminal): Terminal instance
-    """
-    t.gen_prompt(ROW, count = COUNT)
-    prompt_col = t.curr_col
-    t.toggle_show_cursor(True)
-    t.gen_typing_text("clea", ROW, speed = SPEED, contin = True)
-    t.delete_row(ROW, prompt_col)
-    t.gen_text(blue("clear"), ROW, count = COUNT, contin = True)
-    t.clear_frame()
-
-def fetch(t: Terminal):
-    """
-    Simulates fetching data with `fetch.sh -u {USERNAME}` command,
-    which is a custom script that fetches user's GitHub stats
-
-    Args:
-        t (Terminal): Terminal instance
-    """
-    global ROW
-    
-    ROW = 1
-    
-    t.gen_prompt(ROW, count = COUNT)
-    prompt_col = t.curr_col
-    t.toggle_show_cursor(True)
-    t.gen_typing_text("fetch.s", ROW, contin = True, speed = SPEED)
-    t.delete_row(ROW, prompt_col)
-    t.gen_text(blue("fetch.sh"), ROW, count = 3, contin = True)
-
-    prompt_col = t.curr_col
-    t.gen_typing_text(" -", t.curr_row, contin = True, speed = SPEED)
-    t.delete_row(t.curr_row, prompt_col)
-    t.gen_text(red(" -u"), t.curr_row, count = 3, contin = True)
-
-    t.gen_typing_text(f" {magenta(USERNAME)}", ROW, speed = SPEED, contin = True)
-
-    ROW += 1
-
-def get_gen_details() -> str:
-    """
-    Formats the user's details and GitHub stats into a readable string with ANSI color codes
+        items (list[str]): List of strings to format
 
     Returns:
-        str: Formatted string containing the user's details and GitHub stats
+        str: Formatted string
+    """
+    return (" · ").join(items)
+
+def list_languages() -> list[str]:
+    """
+    Formats top programming languages as color-coded list of strings
+
+    Returns:
+        list[str]: Color-coded list of top languages with usage percentage
+    """
+    languages = [ ]
+    
+    for language, percent in USER_DETAILS.languages_sorted:
+        if language == "Jupyter Notebook": language = "Jupyter"
+
+        lang = f"{bright_cyan(language)} ({bright_yellow(f'{percent}%')})"
+        languages.append(lang)
+
+    return languages
+
+def profile_details() -> str:
+    """
+    Formats profile details as color-coded string:
+    1. User information
+        * Role
+        * Experience
+        * Focus areas
+        * University
+        * Degree
+    2. GitHub stats
+        * User rating
+        * Followers count
+        * Total stars
+        * Total commits
+        * Pull requests
+        * Contributions count
+    3. Top languages
+
+    Returns:
+        str: Formatted string containing profile details
     """
     top_languages = list_languages()
 
@@ -222,8 +183,8 @@ def get_gen_details() -> str:
 {bright_magenta(f"User Profile")}
 --------------
 {bright_cyan("Role")}:           {bright_yellow("Software Engineer")}
-{bright_cyan("Experience")}:     {(' · ').join([bright_yellow(experience) for experience in EXPERIENCE])}
-{bright_cyan("Focus")}:          {(' · ').join([bright_yellow(focus) for focus in FOCUS])}
+{bright_cyan("Experience")}:     {format_list([bright_yellow(experience) for experience in EXPERIENCE])}
+{bright_cyan("Focus")}:          {format_list([bright_yellow(focus) for focus in FOCUS])}
 {bright_cyan("University")}:     {bright_yellow("Florida International University (FIU)")}
 {bright_cyan("Degree")}:         {bright_yellow("Computer Science, B.S.")}
 
@@ -238,30 +199,107 @@ def get_gen_details() -> str:
 
 {bright_magenta("Top Languages")}
 --------------
-{(' · ').join(top_languages[:5])}
-{(' · ').join(top_languages[5:10])}
+{format_list(top_languages[:5])}
+{format_list(top_languages[5:10])}
     """
 
-def list_languages() -> list[str]:
+def login(t: Terminal):
     """
-    Formats the user's top programming languages into a list of strings with ANSI color codes
+    Simulates login sequence:
+    1. Username
+    2. Password
+    3. "Last login" message with random tty
 
-    Returns:
-        list[str]: Formatted list of top languages with their usage percentage, sorted by usage
+    Args:
+        t (Terminal): Terminal instance
     """
-    languages = [ ]
+    global row
+
+    row = 1
+
+    t.toggle_show_cursor(False)
+    t.gen_text(bright_green(f"LYNKOS v2.0.2"), row, count = COUNT)
+
+    row += 2
     
-    for language, percent in USER_DETAILS.languages_sorted:
-        if language == "Jupyter Notebook": language = "Jupyter"
+    t.gen_text("Login: ", row, count = COUNT)
+    t.toggle_show_cursor(True)
+    t.gen_typing_text(USERNAME, row, contin = True, speed = SPEED)
 
-        lang = f"{bright_cyan(language)} ({bright_yellow(f'{percent}%')})"
-        languages.append(lang)
+    row += 1
+    
+    t.gen_text("", row, count = COUNT)
+    t.toggle_show_cursor(False)
+    t.gen_text("Password: ", row, count = COUNT)
+    t.toggle_show_cursor(True)
+    t.gen_typing_text("*******", row, contin = True, speed = SPEED)
+    t.toggle_show_cursor(False)
 
-    return languages
+    row += 2
 
-def exit(t: Terminal):
+    time_now = datetime.now(ZONE).strftime("%a %b %d %Y %H:%M:%S")
+    t.gen_text(f"Last login: {time_now} on {f"tty00{randint(0, 9)}"}", row, count = 3)
+
+    row += 1
+
+def clear(t: Terminal):
     """
-    Prints a final message
+    Simulates clearing terminal screen with `clear` command
+
+    Args:
+        t (Terminal): Terminal instance
+    """
+    global row
+    
+    t.gen_prompt(row, count = COUNT)
+    prompt_col = t.curr_col
+    t.toggle_show_cursor(True)
+    t.gen_typing_text("clea", row, speed = SPEED, contin = True)
+    t.delete_row(row, prompt_col)
+    t.gen_text(blue("clear"), row, count = COUNT, contin = True)
+    t.clear_frame()
+
+    row = 1
+
+def fetch(t: Terminal):
+    """
+    Simulates fetching data with `fetch.sh -u {USERNAME}` command
+    (i.e. script that fetches user's GitHub stats)
+
+    Args:
+        t (Terminal): Terminal instance
+    """
+    global row
+        
+    t.gen_prompt(row, count = COUNT)
+    prompt_col = t.curr_col
+    t.toggle_show_cursor(True)
+    t.gen_typing_text("fetch.s", row, contin = True, speed = SPEED)
+    t.delete_row(row, prompt_col)
+    t.gen_text(blue("fetch.sh"), row, count = 3, contin = True)
+
+    prompt_col = t.curr_col
+    t.gen_typing_text(" -", t.curr_row, contin = True, speed = SPEED)
+    t.delete_row(t.curr_row, prompt_col)
+    t.gen_text(red(" -u"), t.curr_row, count = 3, contin = True)
+
+    t.gen_typing_text(f" {magenta(USERNAME)}", row, speed = SPEED, contin = True)
+
+    row += 1
+
+def info(t: Terminal):
+    """
+    Prints GitHub stats
+
+    Args:
+        t (Terminal): Terminal instance
+    """
+    t.toggle_show_cursor(True)
+    t.gen_text(profile_details(), row, contin = True)
+
+def final(t: Terminal):
+    """
+    Prints final message
 
     Args:
         t (Terminal): Terminal instance
@@ -271,19 +309,9 @@ def exit(t: Terminal):
     t.gen_typing_text(bright_green("# Aspiring multidisciplinary"), t.curr_row, contin = True, speed = SPEED)
     t.gen_text("", t.curr_row, count = INFO_DISPLAY_TIME, contin = True)
 
-def info(t: Terminal):
-    """
-    Prints the user's GitHub stats
-
-    Args:
-        t (Terminal): Terminal instance
-    """
-    t.toggle_show_cursor(True)
-    t.gen_text(get_gen_details(), ROW, contin = True)
-
 def main():
     """
-    Main function that generates a gif of terminal animation sequence:
+    Generate terminal animation sequence (.gif):
     1. Login
     2. Clear screen
     3. Fetch data
@@ -301,7 +329,7 @@ def main():
     clear(t)
     fetch(t)
     info(t)
-    exit(t)
+    final(t)
     
     t.gen_gif()
 
