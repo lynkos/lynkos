@@ -3,7 +3,7 @@ name: Update Stats GIF
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # runs every day at midnight
+    - cron: '0 0 */2 * *' # runs at midnight every 2 days
   push:
     branches:
       - main
