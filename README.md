@@ -4,35 +4,19 @@
 <p align="center">I'm Kiran. I enjoy creating, exploring, and experimenting (among other things).</p>
 
 <p align="center"><a href="https://instagr.am/overanalyse" title="Instagram" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" align="center" hspace="5" alt="Instagram"></a><a href="https://www.linkedin.com/in/kiran-brahmatewari" title="LinkedIn" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" align="center" hspace="5" alt="LinkedIn"></a><a href="https://blog.lynkos.dev" title="Blog" target="_blank"><img src="https://blog.lynkos.dev/assets/img/favicons/favicon.svg" width="28px" height="28px" align="center" hspace="2" alt="Blog"></a><a href="https://lynkos.dev" title="Website" target="_blank"><img src="https://lynkos.dev/assets/img/favicons/favicon.svg" width="28px" height="28px" align="center" hspace="3" alt="Website"></a><a href="https://open.spotify.com/user/kiwi2mii" title="Spotify" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" width="28px" height="28px" align="center" hspace="4" alt="Spotify"></a><a target="_blank" href="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&redirect=true"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" height="75px" align="center" alt="Spotify"></a></p>
-</details>
 
-<!-- Statistics -->
-<details open>
-   <summary><h2>📊&nbsp; Statistics</h2></summary>
-	<div align="center">
-		<!-- Profile counter -->
-		<picture>
-		  <!-- Dark + Default mode profile counter -->
-		  <source srcset="https://komarev.com/ghpvc/?username=lynkos&color=6c71c4&base=1413&style=flat"
-			  media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)">
-		  <!-- Light mode profile counter -->
-		  <source srcset="https://komarev.com/ghpvc/?username=lynkos&color=6c71c4&base=1413&style=flat"
-			  media="(prefers-color-scheme: light)">
-		  <img align="center" alt="Profile views counter" src="https://komarev.com/ghpvc/?username=lynkos&base=1413&style=flat">
-		</picture>
-		<br><br>
-		<!-- Profile stats -->
-		<picture>
-		  <!-- Dark + Default mode profile stats -->
-		  <source srcset="output.gif"
-			  media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)">
-		  <!-- Light mode profile stats -->
-		  <source srcset="output.gif"
-			  media="(prefers-color-scheme: light)">
-		  <img align="center" alt="Profile statistics card" src="output.gif">
-		</picture>
-	</div><br>
-	<p style="text-align: center;" align="center"><sup>Note: These stats do not include <a target="_blank" href="https://gist.github.com/lynkos">my Gists</a>.</sup></p>
+<div align="center">
+	<!-- Profile stats -->
+	<picture>
+	  <!-- Dark + Default mode profile stats -->
+	  <source srcset="output.gif"
+		  media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)">
+	  <!-- Light mode profile stats -->
+	  <source srcset="output.gif"
+		  media="(prefers-color-scheme: light)">
+	  <img align="center" alt="Profile statistics card" src="output.gif">
+	</picture>
+</div>
 </details>
 
 <!-- Skills -->
