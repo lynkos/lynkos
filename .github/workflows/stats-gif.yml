@@ -45,9 +45,9 @@ jobs:
           from pathlib import Path
           from re import sub
           from inspect import getfile
-          from gifos.utils import fetch_github_stats as mod
+          from gifos.utils import fetch_github_stats
 
-          p = Path(getfile(mod))
+          p = Path(getfile(fetch_github_stats))
           text = p.read_text()
           new_text = sub(
               r"languages_sorted\s*=\s*languages_sorted\[[^\]]*\]\s*,?",
@@ -57,7 +57,6 @@ jobs:
           )
           
           if new_text != text: p.write_text(new_text)
-          else: print("No changes made")
           PY
       
       - name: Add Solarized theme
