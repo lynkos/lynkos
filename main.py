@@ -115,18 +115,6 @@ def cyan(text: str | int) -> str:
     """
     return f"\x1b[36m{text}\x1b[0m"
 
-def white(text: str | int) -> str:
-    """
-    Formats text in white using ANSI escape codes
-
-    Args:
-        text (str | int): Text to format
-
-    Returns:
-        str: White input text formatted with ANSI escape code
-    """
-    return f"\x1b[37m{text}\x1b[0m"
-
 def bright_red(text: str | int) -> str:
     """
     Formats text in bright red (aka orange) using ANSI escape codes
