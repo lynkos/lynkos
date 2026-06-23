@@ -1,0 +1,29 @@
+name: Update Blog Posts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0' # runs once a week
+
+defaults:
+  run:
+    shell: bash
+
+permissions:
+  contents: write
+
+jobs:
+  update-blog-posts:
+    name: Update README.md with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Blog post workflow
+        uses: gautamkrishnar/blog-post-workflow@1.9.6
+        with:
+          feed_list: "https://blog.lynkos.dev/feed.xml"
+          commit_message: "Automatically blog posts in \`README.md\` on $(date)"
+          committer_username: "github-actions[bot]"
+          committer_email: "github-actions[bot]@users.noreply.github.com"
