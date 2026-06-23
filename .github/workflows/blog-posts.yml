@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   update-blog-posts:
-    name: Update README.md with latest blog posts
+    name: Update Blog Posts
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

@@ -22,6 +22,7 @@ permissions:
 
 jobs:
   update-stats-gif:
+    name: Update Stats GIF
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
