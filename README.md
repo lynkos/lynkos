@@ -1,125 +1,31 @@
-<details open>
-   <summary><h2>👋🏽&nbsp; Hey</h2></summary>
+## 👋🏽&nbsp; Hey
 
 <p align="center">I'm Kiran. I enjoy creating, exploring, and experimenting (among other things).</p>
 
 <p align="center"><a href="https://instagr.am/overanalyse" title="Instagram" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Instagram.svg" width="28px" height="28px" align="center" hspace="5" alt="Instagram"></a><a href="https://www.linkedin.com/in/kiran-brahmatewari" title="LinkedIn" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="28px" height="28px" align="center" hspace="5" alt="LinkedIn"></a><a href="https://blog.lynkos.dev" title="Blog" target="_blank"><img src="https://blog.lynkos.dev/assets/img/favicons/favicon.svg" width="28px" height="28px" align="center" hspace="2" alt="Blog"></a><a href="https://lynkos.dev" title="Website" target="_blank"><img src="https://lynkos.dev/assets/img/favicons/favicon.svg" width="28px" height="28px" align="center" hspace="3" alt="Website"></a><a href="https://open.spotify.com/user/kiwi2mii" title="Spotify" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" width="28px" height="28px" align="center" hspace="4" alt="Spotify"></a><a target="_blank" href="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&redirect=true"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" height="75px" align="center" alt="Spotify"></a></p>
 
 <div align="center"><img alt="Profile statistics card" src="output.gif"></div>
-</details>
 
-<!-- Skills -->
-<details>
-   <summary><h2>💻&nbsp; Skills</h2></summary>
-	
-<!-- Code -->	
-![](https://img.shields.io/static/v1?label=Code&message=Python&logo=python&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Java&logo=oracle&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=HTML&logo=html5&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=CSS&logo=css3&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=C&logo=c&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=C%2B%2B&logo=c%2B%2B&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Markdown&logo=markdown&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=LaTeX&logo=latex&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=JSON&logo=json&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=YAML&logo=yaml&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=JavaScript&logo=javascript&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=TypeScript&logo=typescript&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Jinja&logo=jinja&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Terraform&logo=terraform&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=UML&logo=uml&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=R&logo=r&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=SQLite&logo=sqlite&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=MySQL&logo=mysql&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=jQuery&logo=jquery&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Swift&logo=swift&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=Ruby&logo=ruby&color=39ae39&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Code&message=F%23&logo=fsharp&color=39ae39&labelColor=393939&logoColor=white)
-
-<!-- Frameworks -->
-![](https://img.shields.io/static/v1?label=Frameworks&message=Qiskit&logo=qiskit&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=OpenCV&logo=opencv&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=PyTorch&logo=pytorch&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Keras&logo=keras&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=TensorFlow&logo=tensorflow&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=NumPy&logo=numpy&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Arduino&logo=arduino&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Espressif&logo=espressif&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Sass&logo=sass&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=SymPy&logo=sympy&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Roboflow&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjMuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA2MDAgNjAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA2MDAgNjAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0zMDAsMEMxMzQuMzEsMCwwLDEzNC4zMSwwLDMwMHMxMzQuMzEsMzAwLDMwMCwzMDBzMzAwLTEzNC4zMSwzMDAtMzAwUzQ2NS42OSwwLDMwMCwweiBNMTk1Ljk4LDQ3Mi40MgoJYzEsMS43NiwxLjU1LDMuODIsMS40Niw2Yy0wLjI0LDUuNzktNC43NCwxMC41MS0xMC42OCwxMC4yM2MtNC4wNy0wLjE5LTcuNzgtMi4yNy0xMS4yNS00LjQxYy0xNS45OC05Ljg2LTMwLjk2LTIyLjI0LTQyLjYzLTM3LjAyCgljLTMuNDItNC4zMy02LjU3LTguODktOS40LTEzLjY0Yy0yLjcyLTQuNTgtNS4xNS05LjM0LTcuMjQtMTQuMjZjLTIuMDMtNC43OS0zLjc0LTkuNzItNS4wOS0xNC43NgoJYy0xLjM0LTQuOTctMi4zMy0xMC4wMy0yLjk4LTE1LjE0Yy0wLjY0LTUuMS0wLjk0LTEwLjI1LTAuODktMTUuNGMwLjA1LTUuMiwwLjQ1LTEwLjQsMS4xNy0xNS41NWMwLjc0LTUuMjMsMS44MS0xMC40MSwzLjE5LTE1LjUKCWMxNi44NC02Mi4yNCw4NC40My0xMTQuMDksMTM3LjQ2LTEyMC43YzQ1Ljc5LTUuNzEsNTcuOTQsMjMuODEsMzAuMjQsNDUuNGMtNDQuMDYsMzQuMzItOTkuOTIsNjguNjMtMTA1LjYsMTIzLjc3CglDMTcxLjQ2LDQxMy42MSwxODIuNTUsNDQ4Ljc1LDE5NS45OCw0NzIuNDJ6IE00OTcuNDQsMzg2LjM5Yy0xNi4zLDMzLjY1LTM0LjIyLDU2LjIyLTQ2LjY4LDY5LjQ2CgljLTM3LjE0LDQxLjM0LTk1LjIzLDY4LjQtMTQ4Ljg5LDQ2LjE4Yy0zMC44My0xMi43Ny01NC45NC00MS40NS01OS4yNC03NC45NmMtOC4wMi02Mi41NSw2NC42OS05OC43NCwxMDIuOTgtMTM0LjE5CgljMjMuNDUtMjEuNzEsNDkuMTYtNTUuMSwzNy4xOC04OS4wNmMtMTEuNDctMzIuNTUtNDkuNzItNDYuNzEtODEuMTUtNDkuOThjLTMwLjk5LTMuMjMtNjIuNDksMy4xNy05MC42LDE2LjMyCgljLTIyLjA3LDEwLjMyLTQwLjYyLDI1Ljk3LTU4LjAxLDQyLjc5Yy01Ljc1LDUuNTctMTEuMjQsMTEuNDktMTcuMjEsMTYuODJjLTUuMTQsNC41OS0xMS4zMSw4Ljc5LTE4LjI5LDkuNzQKCWMtMTAuNDEsMS40MS0yMC4zMi02LjE4LTE4Ljk5LTE3LjE4YzIuMTYtMTcuOCwxNC43OS0zMy4yOSwyNS44OS00Ni41N2M2Ljg2LTguMTksMTQuMjUtMTUuOTYsMjIuMS0yMy4yCgljMTcuNzEtMTYuMzQsMzguMDgtMjkuODcsNTkuOTQtMzkuOThDMjU5LjYsODgsMzIxLjQ3LDgzLjEzLDM3Ny42NCw5OS43M2M0NC4xMSwxMy4wNCw4Ny43OSw0My43LDk1LjU5LDkyLjAxCgljMS42NSwxMC4yNSwxLjYzLDIwLjcyLDAuMTcsMzFjLTUuMTksMzYuNjctMjcuMjQsNjkuNDQtNTIuMjQsOTUuNzhjLTI2LjU5LDI4LjAyLTYwLjQ0LDQ2LjM1LTg4LjUyLDcyLjQ0CgljLTE2LjQzLDE1LjI3LTIzLjEzLDM0LjAxLTMuMjksNDkuODdjMjcuMSwxMy44MSw0OS42NCw2LjY0LDc0LjI3LTguMzFjMTQuNTItOC44MiwyNi45Ni0yMC41NywzNy43Ni0zMy42MQoJYzUuNDgtNi42MSwxMC41Ni0xMy41NSwxNS40MS0yMC42M2M0LjEzLTYuMDIsNy45NC0xMi45NCwxMy40My0xNy45MWMzLjM4LTMuNTUsNy41My02LjIzLDEyLjU1LTYuNjgKCWM3LjM1LTAuNjYsMTQuNjEsMy4yMywxNy41MSwxMC4xNUM1MDMuMjMsMzcwLjg3LDUwMC42MSwzNzkuODQsNDk3LjQ0LDM4Ni4zOXoiLz4KPC9zdmc+&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Ultralytics+YOLO&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjU0IiBoZWlnaHQ9IjI1OCIgdmlld0JveD0iMCAwIDI1NCAyNTgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xMDA4Xzk0MjU1KSI+CjxtYXNrIGlkPSJtYXNrMF8xMDA4Xzk0MjU1IiBzdHlsZT0ibWFzay10eXBlOmx1bWluYW5jZSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjI1NCIgaGVpZ2h0PSIyNTgiPgo8cGF0aCBkPSJNMjUzLjM5MSAwLjA2Nzg3MTFIMC41NjI1VjI1Ny45MzJIMjUzLjM5MVYwLjA2Nzg3MTFaIiBmaWxsPSJ3aGl0ZSIvPgo8L21hc2s+CjxnIG1hc2s9InVybCgjbWFzazBfMTAwOF85NDI1NSkiPgo8cGF0aCBkPSJNNTkuNzUgMC4wNjg0ODE0QzI3LjExMzYgMC4wNjg0ODE0IDAuNTYyNSAyNi42MzE4IDAuNTYyNSA1OS4yODI4QzAuNTYyNSA5MS45MzE0IDI3LjExMzYgMTE4LjQ5NSA1OS43NSAxMTguNDk1QzkyLjM4NyAxMTguNDk1IDExOC45MzggOTEuOTMxNCAxMTguOTM4IDU5LjI4MjhDMTE4LjkzOCAyNi42MzE4IDkyLjM4NyAwLjA2ODQ4MTQgNTkuNzUgMC4wNjg0ODE0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTEyNi43MTkgMTg1LjQ4OUMxMDUuMzk5IDE4NS40ODkgODUuMjU0MiAxODAuMDg5IDY3LjU3MDMgMTcwLjYwNlYxOTcuNDcxQzY3LjU3MDMgMjMwLjA3MSA5My41ODk5IDI1Ny4xMjEgMTI2LjE3NSAyNTcuNDM2QzE1OS4wNzggMjU3Ljc1NCAxODUuOTQ3IDIzMS4wNjkgMTg1Ljk0NyAxOTguMjI2VjE3MC41ODFDMTY4LjI0NyAxODAuMDg3IDE0OC4wNjkgMTg1LjQ4OSAxMjYuNzE5IDE4NS40ODlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTM0LjQ2NiA1OS4yODk1QzEzNC40MDUgMTAwLjQ4MSAxMDAuOTggMTMzLjkzNCA1OS42NTg0IDEzNC4wMzVDNDMuNzE4NSAxMzQuMDc2IDI4Ljc2MDcgMTI5LjExMiAxNi41NTQ3IDEyMC40NDVDMzguMTg4OCAxNTkuMTM0IDc5LjQ3MDEgMTg1LjUxNCAxMjYuNjczIDE4NS40MjNDMTk1LjI0MyAxODUuNDc3IDI1MS44MjMgMTI5LjYyNiAyNTIuOTY2IDYxLjEyNTNMMjUyLjgwNCA2MC45Nzg3QzI1Mi44NzEgNTkuMjcxOSAyNTIuNzg4IDYwLjY3IDI1Mi44NzEgNTkuMjcxOUMyNTIuOTA0IDI2LjU5OCAyMjYuMzEyIC0wLjA2ODk2MiAxOTMuODE1IDAuMDQ0Nzk2MkMxNjEuMDA4IDAuMTc0MzQ3IDEzNC40OTkgMjYuNjE1MyAxMzQuNDY2IDU5LjI4OTVaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfMTAwOF85NDI1NSI+CjxyZWN0IHdpZHRoPSIyNTIuODI4IiBoZWlnaHQ9IjI1Ny44NjUiIGZpbGw9IndoaXRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjU4NTkzOCAwLjA2Nzc0OSkiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Bootstrap&logo=bootstrap&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Maven&logo=apache+maven&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Spring&logo=spring&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=React&logo=react&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=Vue.js&logo=vue.js&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=JUnit&logo=junit5&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=LLaMA.cpp&logo=&color=c0713f&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Frameworks&message=MLX&logo=&color=c0713f&labelColor=393939&logoColor=white)
-
-<!-- Tools -->
-![](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=GitHub&logo=github&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Bitbucket&logo=bitbucket&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Grafana&logo=grafana&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Jira&logo=jira&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Confluence&logo=confluence&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=VMware+Fusion&logo=vmware&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Homebrew&logo=homebrew&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Vim&logo=vim&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Conda&logo=anaconda&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=iTerm2&logo=iterm2&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Hugging+Face&logo=huggingface&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Google+Colab&logo=google+colab&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Wine&logo=wine&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Jupyter&logo=jupyter&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Jekyll&logo=jekyll&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=PlatformIO&logo=platformio&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Slack&logo=slack&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=LLaMA&logo=meta&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Wireshark&logo=wireshark&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=CMake&logo=cmake&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Make&logo=make&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=GitHub+Copilot&logo=github+copilot&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=PyPI&logo=pypi&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=diagrams.net&logo=diagrams.net&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Mermaid&logo=mermaid&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Prometheus&logo=prometheus&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Photoshop&logo=adobe+photoshop&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=MongoDB&logo=mongodb&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Postman&logo=postman&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Docker&logo=docker&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Firebase&logo=firebase&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=LLVM&logo=llvm&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Yubikey&logo=yubico&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Claude&logo=claude&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Google+Gemini&logo=googlegemini&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=DeepSeek&logo=deepseek&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=GPT&logo=openai&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=OpenCode&logo=opencode&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Oracle+Cloud&logo=oracle&color=ae3939&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Tools&message=Oracle+Database&logo=oracle&color=ae3939&labelColor=393939&logoColor=white)
-
-<!-- IDE / Source Code Editor -->
-![](https://img.shields.io/static/v1?label=Code+Editor&message=Visual+Studio+Code&logo=&color=a03fc0&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=IDE&message=IntelliJ+IDEA&logo=intellij+idea&color=a03fc0&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=IDE&message=PyCharm&logo=pycharm&color=a03fc0&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=IDE&message=Eclipse&logo=eclipse&color=a03fc0&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=IDE&message=WebStorm&logo=webstorm&color=a03fc0&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=IDE&message=RStudio&logo=rstudio+ide&color=a03fc0&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=IDE&message=Sublime+Text&logo=sublime+text&color=a03fc0&labelColor=393939&logoColor=white)
-
-<!-- Shell -->
-![](https://img.shields.io/static/v1?label=Shell&message=Bash&logo=gnu+bash&color=white&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=Shell&message=Zsh&logo=zsh&color=white&labelColor=393939&logoColor=white)
-
-<!-- OS -->
-![](https://img.shields.io/static/v1?label=OS&message=macOS&logo=apple&color=3f7fc0&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=OS&message=Ubuntu&logo=ubuntu&color=3f7fc0&labelColor=393939&logoColor=white)
-![](https://img.shields.io/static/v1?label=OS&message=Windows&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODc1IDQ4NzUiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMjMxMXYyMzEwSDB6bTI1NjQgMGgyMzExdjIzMTBIMjU2NHpNMCAyNTY0aDIzMTF2MjMxMUgwem0yNTY0IDBoMjMxMXYyMzExSDI1NjQiLz48L3N2Zz4=&color=3f7fc0&labelColor=393939&logoColor=white)
+## 💻&nbsp; Skills
 
 <!-- Languages -->
-![](https://img.shields.io/static/v1?label=Languages&message=English&color=9b9129&labelColor=393939)
-![](https://img.shields.io/static/v1?label=Languages&message=Dutch&color=9b9129&labelColor=393939)
-</details>
+![Python](https://img.shields.io/static/v1?label=Languages&message=Python&logo=python&color=39ae39&labelColor=393939&logoColor=white)
+![Bash](https://img.shields.io/static/v1?label=Language&message=Bash&logo=gnu+bash&color=39ae39&labelColor=393939&logoColor=white)
+![Java](https://img.shields.io/static/v1?label=Languages&message=Java&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTQ3LjYxNyA5OC4xMnMtNC43NjcgMi43NzQgMy4zOTcgMy43MWM5Ljg5MiAxLjEzIDE0Ljk0Ny45NjggMjUuODQ1LTEuMDkyIDAgMCAyLjg3MSAxLjc5NSA2Ljg3MyAzLjM1MS0yNC40MzkgMTAuNDctNTUuMzA4LS42MDctMzYuMTE1LTUuOTY5bS0yLjk4OC0xMy42NjVzLTUuMzQ4IDMuOTU5IDIuODIzIDQuODA1YzEwLjU2NyAxLjA5MSAxOC45MSAxLjE4IDMzLjM1NC0xLjYgMCAwIDEuOTkzIDIuMDI1IDUuMTMyIDMuMTMxLTI5LjU0MiA4LjY0LTYyLjQ0Ni42OC00MS4zMDktNi4zMzZtMjUuMTczLTIzLjE4NGM2LjAyNSA2LjkzNS0xLjU4IDEzLjE3LTEuNTggMTMuMTdzMTUuMjg5LTcuODkxIDguMjY5LTE3Ljc3N2MtNi41NTktOS4yMTUtMTEuNTg3LTEzLjc5MiAxNS42MzUtMjkuNTggMCAuMDAxLTQyLjczMSAxMC42Ny0yMi4zMjQgMzQuMTg3Ii8+PHBhdGggZD0iTTEwMi4xMjMgMTA4LjIyOXMzLjUyOSAyLjkxLTMuODg4IDUuMTU5Yy0xNC4xMDIgNC4yNzItNTguNzA2IDUuNTYtNzEuMDk0LjE3MS00LjQ1MS0xLjkzOCAzLjg5OS00LjYyNSA2LjUyNi01LjE5MiAyLjczOS0uNTkzIDQuMzAzLS40ODUgNC4zMDMtLjQ4NS00Ljk1My0zLjQ4Ny0zMi4wMTMgNi44NS0xMy43NDMgOS44MTUgNDkuODIxIDguMDc2IDkwLjgxNy0zLjYzNyA3Ny44OTYtOS40NjhNNDkuOTEyIDcwLjI5NHMtMjIuNjg2IDUuMzg5LTguMDMzIDcuMzQ4YzYuMTg4LjgyOCAxOC41MTguNjM4IDMwLjAxMS0uMzI2IDkuMzktLjc4OSAxOC44MTMtMi40NzQgMTguODEzLTIuNDc0cy0zLjMwOCAxLjQxOS01LjcwNCAzLjA1M2MtMjMuMDQyIDYuMDYxLTY3LjU0NCAzLjIzOC01NC43MzEtMi45NTggMTAuODMyLTUuMjM5IDE5LjY0NC00LjY0MyAxOS42NDQtNC42NDNtNDAuNjk3IDIyLjc0N2MyMy40MjEtMTIuMTY3IDEyLjU5MS0yMy44NiA1LjAzMi0yMi4yODUtMS44NDguMzg1LTIuNjc3LjcyLTIuNjc3Ljcycy42ODgtMS4wNzkgMi0xLjU0M2MxNC45NTMtNS4yNTUgMjYuNDUxIDE1LjUwMy00LjgyMyAyMy43MjUgMC0uMDAyLjM1OS0uMzI3LjQ2OC0uNjE3TTc2LjQ5MSAxLjU4N1M4OS40NTkgMTQuNTYzIDY0LjE4OCAzNC41MWMtMjAuMjY2IDE2LjAwNi00LjYyMSAyNS4xMy0uMDA3IDM1LjU1OS0xMS44MzEtMTAuNjczLTIwLjUwOS0yMC4wNy0xNC42ODgtMjguODE1QzU4LjA0MSAyOC40MiA4MS43MjIgMjIuMTk1IDc2LjQ5MSAxLjU4NyIvPjxwYXRoIGQ9Ik01Mi4yMTQgMTI2LjAyMWMyMi40NzYgMS40MzcgNTctLjggNTcuODE3LTExLjQzNiAwIDAtMS41NzEgNC4wMzItMTguNTc3IDcuMjMxLTE5LjE4NiAzLjYxMi00Mi44NTQgMy4xOTEtNTYuODg3Ljg3NCAwIC4wMDEgMi44NzUgMi4zODEgMTcuNjQ3IDMuMzMxIi8+PC9zdmc+&color=39ae39&labelColor=393939&logoColor=white)
+![TypeScript](https://img.shields.io/static/v1?label=Languages&message=TypeScript&logo=typescript&color=39ae39&labelColor=393939&logoColor=white)
+![Terraform](https://img.shields.io/static/v1?label=Languages&message=Terraform&logo=terraform&color=39ae39&labelColor=393939&logoColor=white)
+
+<!-- Tools -->
+![Git](https://img.shields.io/static/v1?label=Tools&message=Git&logo=git&color=ae3939&labelColor=393939&logoColor=white)
+![Grafana](https://img.shields.io/static/v1?label=Tools&message=Grafana&logo=grafana&color=ae3939&labelColor=393939&logoColor=white)
+![Prometheus](https://img.shields.io/static/v1?label=Tools&message=Prometheus&logo=prometheus&color=ae3939&labelColor=393939&logoColor=white)
+![Docker](https://img.shields.io/static/v1?label=Tools&message=Docker&logo=docker&color=ae3939&labelColor=393939&logoColor=white)
+![GitHub Actions](https://img.shields.io/static/v1?label=Tools&message=GitHub+Actions&logo=github&color=ae3939&labelColor=393939&logoColor=white)
+
+<!-- OS -->
+![macOS](https://img.shields.io/static/v1?label=OS&message=macOS&logo=apple&color=3f7fc0&labelColor=393939&logoColor=white)
+![Linux](https://img.shields.io/static/v1?label=OS&message=Linux&logo=linux&color=3f7fc0&labelColor=393939&logoColor=white)
+
+## 📝&nbsp; Latest Blog Posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
