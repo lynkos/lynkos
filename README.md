@@ -28,4 +28,9 @@
 
 ## 📝&nbsp; Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [The Connection Between Mulholland Drive and Dharmic Philosophy](https://blog.lynkos.dev/posts/mulholland-drive-dharmic-philosophy/)
+- [Custom Storage](https://blog.lynkos.dev/posts/custom-storage/)
+- [Windows Game-Specific Fixes on macOS](https://blog.lynkos.dev/posts/windows-game-fixes/)
+- [How to Build and Run Optimized, Self-Compiled LLMs Locally on MacBook Pro Apple Silicon M-series](https://blog.lynkos.dev/posts/self-compiled-llm/)
+- [My Blogging Setup](https://blog.lynkos.dev/posts/blogging-setup/)
 <!-- BLOG-POST-LIST:END -->
