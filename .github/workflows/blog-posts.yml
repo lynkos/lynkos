@@ -25,6 +25,6 @@ jobs:
         with:
           feed_list: "https://blog.lynkos.dev/feed.xml"
           max_post_count: 7
-          commit_message: "Automatically updated blog posts in `README.md` on $(date)"
+          commit_message: "Automatically updated blog posts in `README.md`"
           committer_username: "github-actions[bot]"
           committer_email: "github-actions[bot]@users.noreply.github.com"
