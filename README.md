@@ -12,4 +12,6 @@
 - [Windows Game-Specific Fixes on macOS](https://blog.lynkos.dev/posts/windows-game-fixes/)
 - [How to Build and Run Optimized, Self-Compiled LLMs Locally on MacBook Pro Apple Silicon M-series](https://blog.lynkos.dev/posts/self-compiled-llm/)
 - [My Blogging Setup](https://blog.lynkos.dev/posts/blogging-setup/)
+- [How to Run Windows Games and Programs on Mac](https://blog.lynkos.dev/posts/play-windows-games/)
+- [Quantum Search Algorithm &lpar;Full&rpar;](https://blog.lynkos.dev/posts/grover-full/)
 <!-- BLOG-POST-LIST:END -->
