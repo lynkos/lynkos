@@ -24,6 +24,7 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@1.9.6
         with:
           feed_list: "https://blog.lynkos.dev/feed.xml"
+          max_post_count: 7
           commit_message: "Automatically updated blog posts in `README.md` on $(date)"
           committer_username: "github-actions[bot]"
           committer_email: "github-actions[bot]@users.noreply.github.com"
