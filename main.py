@@ -1,3 +1,41 @@
+"""
+Generates a terminal animation sequence (.gif) for GitHub Profile using `github-readme-terminal`
+
+1. Generate a fine-grained personal access token (https://github.com/settings/tokens):
+    * Repository access: ALL
+    * Permissions: Contents (read-only), Metadata (read-only)
+
+2. Create `.env` file in the root directory with the following content:
+    ```
+    GITHUB_TOKEN=your_github_token_from_step_1
+    ```
+
+3. Go to your GitHub Profile's repository settings --> Secrets and variables --> Actions --> New repository secret:
+    * Name: `READ_STATS_TOKEN`
+    * Secret: your_github_token_from_step_1
+
+4. Update the constants below as needed
+
+5. Run the script:
+    ```
+    python main.py
+    ```
+
+6. If successful, the generated GIF will be saved as in the root directory
+
+7. Add generated GIF to your GitHub Profile README.md:
+    ```markdown
+    ![Profile statistics card](output.gif)
+    ```
+    OR
+    ```html
+    <img alt="Profile statistics card" src="output.gif">
+    ```
+
+8. For more info and customization options, refer to the documentation:
+    https://github.com/x0rzavi/github-readme-terminal
+"""
+
 from gifos import Terminal
 from gifos.utils import fetch_github_stats
 from datetime import datetime
@@ -13,10 +51,19 @@ EXPERIENCE = [ "Oracle Cloud (OCI)", "Analytics for Cyber Defense (ACyD) Lab" ]
 FOCUS = [ "Infrastructure", "Distributed Systems", "Backend", "Platform", "Cloud", "CI/CD" ]
 """Areas of focus"""
 
+ROLE = "Software Engineer"
+"""Current role"""
+
+UNIVERSITY = "Florida International University (FIU)"
+"""University attended (or currently attending)"""
+
+DEGREE = "Computer Science, B.S."
+"""Degree obtained (or currently pursuing)"""
+
 ZONE = ZoneInfo("America/New_York")
 """Timezone"""
 
-INFO_DISPLAY_TIME = 400
+INFO_DISPLAY_TIME = 500
 """How long the info section is displayed"""
 
 WIDTH = 750
@@ -39,9 +86,6 @@ COUNT = 5
 
 USER_DETAILS = fetch_github_stats(USERNAME, include_all_commits = True)
 """User details fetched from GitHub, including stats like followers, stars, commits, languages, etc."""
-
-# FONT_FAMILY = "~/Library/Fonts/FiraCode-Retina.ttf" # FiraCode-Regular.ttf
-# """Terminal font family"""
 
 def red(text: str | int) -> str:
     """
@@ -194,11 +238,11 @@ def profile_details() -> str:
     return f"""
 {magenta(f"User Profile")}
 --------------
-{bright_magenta("Role")}:           {yellow("Software Engineer")}
+{bright_magenta("Role")}:           {yellow(ROLE)}
 {bright_magenta("Experience")}:     {format_list([yellow(experience) for experience in EXPERIENCE])}
 {bright_magenta("Focus")}:          {format_list([yellow(focus) for focus in FOCUS])}
-{bright_magenta("University")}:     {yellow("Florida International University (FIU)")}
-{bright_magenta("Degree")}:         {yellow("Computer Science, B.S.")}
+{bright_magenta("University")}:     {yellow(UNIVERSITY)}
+{bright_magenta("Degree")}:         {yellow(DEGREE)}
 
 {magenta("GitHub Stats")}
 --------------
@@ -230,7 +274,7 @@ def login(t: Terminal):
     row = 1
 
     t.toggle_show_cursor(False)
-    t.gen_text(bright_red(f"LYNKOS v2.0.2"), row, count = COUNT)
+    t.gen_text(bright_red(f"{USERNAME.upper()} v2.0.2"), row, count = COUNT)
 
     row += 2
     
@@ -249,7 +293,7 @@ def login(t: Terminal):
 
     row += 2
 
-    time_now = datetime.now(ZONE).strftime("%a %b %d %Y %H:%M:%S")
+    time_now = datetime.now(ZONE).strftime("%a %b %d %H:%M:%S")
     t.gen_text(f"Last login: {time_now} on {f"tty00{randint(0, 9)}"}", row, count = 3)
 
     row += 1
@@ -336,7 +380,6 @@ def main():
                  xpad = PADDING,
                  ypad = PADDING,
                  font_size = FONT_SIZE)
-                 #font_file = FONT_FAMILY)
 
     login(t)
     clear(t)
