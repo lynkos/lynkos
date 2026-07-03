@@ -113,8 +113,7 @@ jobs:
       - name: Generate GIF
         run: python main.py
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          # IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.READ_STATS_TOKEN }}
 
       - name: Upload GIF
         run: |
