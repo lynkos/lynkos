@@ -21,7 +21,7 @@ Generates a terminal animation sequence (.gif) for GitHub Profile using `github-
     python main.py
     ```
 
-6. If successful, the generated GIF will be saved as in the root directory
+6. If successful, the generated GIF will be saved in the root directory
 
 7. Add generated GIF to your GitHub Profile README.md:
     ```markdown
