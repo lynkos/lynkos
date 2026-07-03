@@ -30,15 +30,17 @@ jobs:
         with:
           lfs: true
 
-      - name: Install dependencies
+      - name: Install FFmpeg
         run: |
           sudo apt update
           sudo apt install -y ffmpeg
-          python -m venv .venv
-          source .venv/bin/activate
-          python -m pip install --upgrade pip
-          pip install git+https://github.com/x0rzavi/github-readme-terminal.git@main
-          echo "$GITHUB_WORKSPACE/.venv/bin" >> "$GITHUB_PATH"
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          pip-install: "git+https://github.com/x0rzavi/github-readme-terminal.git@main"
 
       - name: Patch gifos to display Top 15 Languages
         run: |
