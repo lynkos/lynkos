@@ -48,7 +48,7 @@ USERNAME = "lynkos"
 EXPERIENCE = [ "Oracle Cloud (OCI)", "Analytics for Cyber Defense (ACyD) Lab" ]
 """Work experience"""
 
-FOCUS = [ "Infrastructure", "Distributed Systems", "Backend", "Platform", "Cloud", "CI/CD" ]
+FOCUS = [ "Infrastructure", "Distributed Systems", "Backend", "Platform", "Cloud", "DevOps" ]
 """Areas of focus"""
 
 ROLE = "Software Engineer"
