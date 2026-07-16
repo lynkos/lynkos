@@ -2,8 +2,9 @@ name: Update Blog Posts
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * 0' # runs once a week
+  # Commented out since I don't regularly post on my blog
+  # schedule:
+  #   - cron: '0 0 * * 0' # runs once a week
 
 defaults:
   run:
