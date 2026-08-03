@@ -307,7 +307,7 @@ def clear(t: Terminal):
     """
     global row
     
-    t.set_prompt(f"{cyan('lynkos')}@{green('localhost:')}{red('~')}$ ")
+    t.set_prompt(f"{cyan(USERNAME)}@{green('localhost:')}{red('~')}$ ")
     t.gen_prompt(row, count = COUNT)
     prompt_col = t.curr_col
     t.toggle_show_cursor(True)
