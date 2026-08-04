@@ -35,7 +35,6 @@ Generates a terminal animation sequence (.gif) for GitHub Profile using `github-
 8. For more info and customization options, refer to the documentation:
     https://github.com/x0rzavi/github-readme-terminal
 """
-
 from gifos import Terminal
 from gifos.utils import fetch_github_stats
 from datetime import datetime
@@ -48,8 +47,11 @@ USERNAME = "lynkos"
 EXPERIENCE = [ "Oracle Cloud (OCI)", "Analytics for Cyber Defense (ACyD) Lab" ]
 """Work experience"""
 
-FOCUS = [ "Infrastructure", "Distributed Systems", "Backend", "Platform", "Cloud", "DevOps" ]
+FOCUS = [ "Infrastructure", "Distributed Systems", "Backend", "Cloud", "Platform" ]
 """Areas of focus"""
+
+INTERESTS = [ "Research", "Cybersecurity", "AI/ML", "Edge Computing", "Quantum Computing" ]
+"""Areas of interest"""
 
 ROLE = "Software Engineer"
 """Current role"""
@@ -69,7 +71,7 @@ INFO_DISPLAY_TIME = 500
 WIDTH = 750
 """Terminal width"""
 
-HEIGHT = 480
+HEIGHT = 500
 """Terminal height"""
 
 PADDING = 15
@@ -83,6 +85,12 @@ SPEED = 1
 
 COUNT = 5
 """Number of times to generate text"""
+
+VERSION = "2.1.0"
+"""Version of the script"""
+
+GIT_COMMIT_MESSAGE = "aspiring multidisciplinary"
+"""Git commit message"""
 
 USER_DETAILS = fetch_github_stats(USERNAME, include_all_commits = True)
 """User details fetched from GitHub, including stats like followers, stars, commits, languages, etc."""
@@ -241,6 +249,7 @@ def profile_details() -> str:
 {bright_magenta("Role")}:           {yellow(ROLE)}
 {bright_magenta("Experience")}:     {format_list([yellow(experience) for experience in EXPERIENCE])}
 {bright_magenta("Focus")}:          {format_list([yellow(focus) for focus in FOCUS])}
+{bright_magenta("Interests")}:      {format_list([yellow(interest) for interest in INTERESTS])}
 {bright_magenta("University")}:     {yellow(UNIVERSITY)}
 {bright_magenta("Degree")}:         {yellow(DEGREE)}
 
@@ -269,34 +278,27 @@ def login(t: Terminal):
     Args:
         t (Terminal): Terminal instance
     """
-    global row
-
-    row = 1
-
     t.toggle_show_cursor(False)
-    t.gen_text(bright_red(f"{USERNAME.upper()} v2.0.2"), row, count = COUNT)
+    t.gen_text(bright_red(f"{USERNAME.upper()} v{VERSION}"), t.curr_row, count = COUNT)
 
-    row += 2
+    t.curr_row += 2
     
-    t.gen_text("Login: ", row, count = COUNT)
+    t.gen_text("login: ", t.curr_row, count = COUNT)
     t.toggle_show_cursor(True)
-    t.gen_typing_text(USERNAME, row, contin = True, speed = SPEED)
+    t.gen_typing_text(USERNAME, t.curr_row, speed = SPEED, contin = True)
+    t.toggle_show_cursor(False)
 
-    row += 1
+    t.curr_row += 1
     
-    t.gen_text("", row, count = COUNT)
-    t.toggle_show_cursor(False)
-    t.gen_text("Password: ", row, count = COUNT)
+    t.gen_text("password: ", t.curr_row, count = COUNT)
     t.toggle_show_cursor(True)
-    t.gen_typing_text("*******", row, contin = True, speed = SPEED)
+    t.gen_typing_text("*******", t.curr_row, speed = SPEED, contin = True)
     t.toggle_show_cursor(False)
 
-    row += 2
+    t.curr_row += 2
 
     time_now = datetime.now(ZONE).strftime("%a %b %d %H:%M:%S")
-    t.gen_text(f"Last login: {time_now} on {f"tty00{randint(0, 9)}"}", row, count = 3)
-
-    row += 1
+    t.gen_text(f"Last login: {time_now} on {f"tty00{randint(0, 9)}"}", t.curr_row)
 
 def clear(t: Terminal):
     """
@@ -305,18 +307,15 @@ def clear(t: Terminal):
     Args:
         t (Terminal): Terminal instance
     """
-    global row
+    t.curr_row += 1
     
     t.set_prompt(f"{cyan(USERNAME)}@{green('localhost:')}{red('~')}$ ")
-    t.gen_prompt(row, count = COUNT)
-    prompt_col = t.curr_col
+    t.gen_prompt(t.curr_row, count = COUNT)
+    
     t.toggle_show_cursor(True)
-    t.gen_typing_text("clea", row, speed = SPEED, contin = True)
-    t.delete_row(row, prompt_col)
-    t.gen_text(blue("clear"), row, count = COUNT, contin = True)
+    t.gen_typing_text(blue("clear"), t.curr_row, speed = SPEED, contin = True)
+    
     t.clear_frame()
-
-    row = 1
 
 def fetch(t: Terminal):
     """
@@ -326,23 +325,16 @@ def fetch(t: Terminal):
     Args:
         t (Terminal): Terminal instance
     """
-    global row
-        
-    t.gen_prompt(row, count = COUNT)
-    prompt_col = t.curr_col
-    t.toggle_show_cursor(True)
-    t.gen_typing_text("fetch.s", row, contin = True, speed = SPEED)
-    t.delete_row(row, prompt_col)
-    t.gen_text(blue("fetch.sh"), row, count = 3, contin = True)
+    t.gen_prompt(t.curr_row, count = COUNT)
+    
+    t.gen_typing_text(blue("fetch.sh"), t.curr_row, contin = True, speed = SPEED)
 
     prompt_col = t.curr_col
-    t.gen_typing_text(" -", t.curr_row, contin = True, speed = SPEED)
+    t.gen_typing_text(cyan(" -"), t.curr_row, contin = True, speed = SPEED)
     t.delete_row(t.curr_row, prompt_col)
     t.gen_text(bright_red(" -u"), t.curr_row, count = 3, contin = True)
 
-    t.gen_typing_text(f" {cyan(USERNAME)}", row, speed = SPEED, contin = True)
-
-    row += 1
+    t.gen_typing_text(f" {cyan(USERNAME)}", t.curr_row, speed = SPEED, contin = True)
 
 def info(t: Terminal):
     """
@@ -351,8 +343,8 @@ def info(t: Terminal):
     Args:
         t (Terminal): Terminal instance
     """
-    t.toggle_show_cursor(True)
-    t.gen_text(profile_details(), row, contin = True)
+    t.curr_row += 1
+    t.gen_text(profile_details(), t.curr_row)
 
 def final(t: Terminal):
     """
@@ -362,8 +354,17 @@ def final(t: Terminal):
         t (Terminal): Terminal instance
     """
     t.gen_prompt(t.curr_row, count = COUNT)
-    t.toggle_show_cursor(True)
-    t.gen_typing_text(bright_red("# Aspiring multidisciplinary"), t.curr_row, contin = True, speed = SPEED)
+
+    t.gen_typing_text(blue("git"), t.curr_row, contin = True, speed = SPEED)
+    t.gen_typing_text(cyan(" commit"), t.curr_row, contin = True, speed = SPEED)
+
+    prompt_col = t.curr_col
+    t.gen_typing_text(cyan(" -"), t.curr_row, contin = True, speed = SPEED)
+    t.delete_row(t.curr_row, prompt_col)
+    t.gen_text(bright_red(" -a"), t.curr_row, contin = True)
+    t.gen_typing_text(bright_red("m"), t.curr_row, speed = SPEED, contin = True)
+    
+    t.gen_typing_text(cyan(f" \"{GIT_COMMIT_MESSAGE}\""), t.curr_row, contin = True, speed = SPEED)
     t.gen_text("", t.curr_row, count = INFO_DISPLAY_TIME, contin = True)
 
 def main():
