@@ -77,7 +77,7 @@ HEIGHT = 500
 PADDING = 15
 """Terminal padding"""
 
-FONT_SIZE = 15
+FONT_SIZE = 16
 """Terminal font size"""
 
 SPEED = 1
