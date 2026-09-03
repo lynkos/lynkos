@@ -1,4 +1,4 @@
-## 👋🏽&nbsp; Hey
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6c71c4,50:2aa198,100:859900&reversal=false" alt="Header"/>
 <p align="center">I'm Kiran. I enjoy creating, exploring, and experimenting (among other things).</p>
 
 <p align="center">
@@ -22,3 +22,5 @@
 - [How to Run Windows Games and Programs on Mac](https://blog.lynkos.dev/posts/play-windows-games/)
 - [Quantum Search Algorithm &lpar;Full&rpar;](https://blog.lynkos.dev/posts/grover-full/)
 <!-- BLOG-POST-LIST:END -->
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6c71c4,50:2aa198,100:859900&reversal=false&section=footer" alt="Footer"/>
