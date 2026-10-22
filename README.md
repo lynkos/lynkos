@@ -7,7 +7,7 @@
   <a href="https://blog.lynkos.dev" title="Blog" target="_blank"><img src="https://blog.lynkos.dev/assets/img/favicons/favicon.svg" width="28px" height="28px" align="center" hspace="1" alt="Blog"></a>
   <a href="https://lynkos.dev" title="Website" target="_blank"><img src="https://lynkos.dev/assets/img/favicons/favicon.svg" width="28px" height="28px" align="center" hspace="1" alt="Website"></a>
   <a href="https://open.spotify.com/user/kiwi2mii" title="Spotify" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" width="28px" height="28px" align="center" hspace="1" alt="Spotify"></a>
-  <a target="_blank" href="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&redirect=true"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" height="75px" align="center" alt="Spotify"></a>
+  <a target="_blank" href="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&redirect=true"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=kiwi2mii&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" height="62px" align="center" alt="Spotify"></a>
 </p>
 
 <div align="center"><img alt="Profile statistics card" src="output.gif"></div>
